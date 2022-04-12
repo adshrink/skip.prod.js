@@ -1871,6 +1871,76 @@ function SemanticCard(props) {
   }), "10+ comments", /*#__PURE__*/React.createElement("br", null), get_data('og:description')));
 }
 
+class ComponentBlank extends React.Component {
+  constructor(props) {
+    super(props);
+    this._mounted = false;
+    this._adblock = false;
+    this.state = {
+      init: false
+    };
+  }
+
+  componentDidMount() {
+    this._mounted = true;
+    $('#__w__').css({
+      background: "white"
+    });
+
+    if ('$' in window) {
+      try {
+        if ($('.g-recaptcha-antibot').length >= 1) {
+          /**
+           * exist
+           */
+        } else {
+          throw new error('adblock detected');
+        }
+      } catch (error) {
+        this._adblock = true;
+        /**
+         * other code
+         */
+
+        $('#message_adblock').append('<h4>Adblock Detected -  Disable your Ad-block, whitelist our Domain and reload. AdBlock may cause you issues with our site</h4><br/><br/><small>Other potential solutions:<br/>1️⃣ Configure your network settings to use the IP addresses 8.8.8.8 as your DNS servers<br/>2️⃣ Disable/Change your VPN<br/>3️⃣ Use Chrome or Safari (best browsers)<br/>4️⃣ if you are if you are having troubles <a href="https://ipx.ac/run" target="_blank">check this</a> and send to us the results.</small>');
+      }
+    }
+
+    setTimeout(() => {
+      $('#__w__').remove();
+    }, parseInt(this.props.sec) * 1000);
+  }
+
+  render() {
+    return /*#__PURE__*/React.createElement("div", {
+      id: "__w__",
+      style: {
+        margin: "0 auto",
+        height: "100%",
+        width: "100%",
+        position: "absolute",
+        zIndex: "9999",
+        background: "white"
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "ui segment basic",
+      style: {
+        marginTop: "10%"
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "ui active inverted dimmer"
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "ui text loader"
+    }, "Rendering View.."))), /*#__PURE__*/React.createElement("br", null), /*#__PURE__*/React.createElement("div", {
+      style: {
+        padding: "5%"
+      },
+      id: "message_adblock"
+    }));
+  }
+
+}
+
 class WpCards extends React.Component {
   constructor(props) {
     super(props);
@@ -11888,7 +11958,7 @@ class Prototype extends React.Component {
   componentWillUnmount() {}
 
   render() {
-    var _adshrink$enabled2, _adshrink$enabled3, _adshrink$enabled4, _adshrink$enabled5;
+    var _adshrink$enabled2, _adshrink$enabled3, _adshrink$enabled4, _adshrink$enabled5, _adshrink$enabled6;
 
     let that = this;
     let {
@@ -11990,7 +12060,9 @@ class Prototype extends React.Component {
                     .newsheader { font-size: 15px !important; font-family: 'Nunito', sans-serif !important; } .newsheader .description { font-family: 'Nunito', sans-serif !important; } \
                     .g-signin2 { margin-left: 50px; top: 3px; position: relative; } \
                     .ui.basic.blue.label.anchoreth {color: #4184f3!important; border-color: #4184f3!important;} \
-                "), _script_loaded && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(ErrorBoundary, null, true == false && /*#__PURE__*/React.createElement(ComponentAdShrinkSurvey, null), /*#__PURE__*/React.createElement(ModalSharer, null), /*#__PURE__*/React.createElement(ModalAward, {
+                "), _script_loaded && /*#__PURE__*/React.createElement(React.Fragment, null, recaptcha && !(_adshrink !== null && _adshrink !== void 0 && (_adshrink$enabled2 = _adshrink.enabled) !== null && _adshrink$enabled2 !== void 0 && _adshrink$enabled2.adsenseFull) && /*#__PURE__*/React.createElement(ComponentBlank, {
+      sec: 3
+    }), /*#__PURE__*/React.createElement(ErrorBoundary, null, true == false && /*#__PURE__*/React.createElement(ComponentAdShrinkSurvey, null), /*#__PURE__*/React.createElement(ModalSharer, null), /*#__PURE__*/React.createElement(ModalAward, {
       basic: basic,
       dev: form_factor,
       u: {
@@ -12018,11 +12090,11 @@ class Prototype extends React.Component {
         background: "#f8f9fa",
         padding: "27px 20px 7px 7px"
       }
-    }, desktop_tablet && true === false && /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(ComponentStaticStepsMessages, null)), desktop_tablet && true === true && /*#__PURE__*/React.createElement(ErrorBoundary, null, (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled2 = _adshrink.enabled) === null || _adshrink$enabled2 === void 0 ? void 0 : _adshrink$enabled2.adsenseFull) && /*#__PURE__*/React.createElement(AdsenseBanner, {
+    }, desktop_tablet && true === false && /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(ComponentStaticStepsMessages, null)), desktop_tablet && true === true && /*#__PURE__*/React.createElement(ErrorBoundary, null, (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled3 = _adshrink.enabled) === null || _adshrink$enabled3 === void 0 ? void 0 : _adshrink$enabled3.adsenseFull) && /*#__PURE__*/React.createElement(AdsenseBanner, {
       size: 'half_page_responsive'
     }), /*#__PURE__*/React.createElement(TaboolaBanner, {
       size: 'Mid_Article_Reco_Reel'
-    })), !desktop_tablet && true === true && /*#__PURE__*/React.createElement(ErrorBoundary, null, (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled3 = _adshrink.enabled) === null || _adshrink$enabled3 === void 0 ? void 0 : _adshrink$enabled3.adsenseFull) && /*#__PURE__*/React.createElement(AdsenseBanner, {
+    })), !desktop_tablet && true === true && /*#__PURE__*/React.createElement(ErrorBoundary, null, (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled4 = _adshrink.enabled) === null || _adshrink$enabled4 === void 0 ? void 0 : _adshrink$enabled4.adsenseFull) && /*#__PURE__*/React.createElement(AdsenseBanner, {
       size: 'half_page'
     }), /*#__PURE__*/React.createElement(TaboolaBanner, {
       size: 'Mid_Article_Reco_Reel'
@@ -12062,9 +12134,9 @@ class Prototype extends React.Component {
       }
     }, true === false && /*#__PURE__*/React.createElement(TaboolaBanner, {
       size: "Mid_Article_5X1"
-    }), form_factor === 'Desktop' && true === true && (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled4 = _adshrink.enabled) === null || _adshrink$enabled4 === void 0 ? void 0 : _adshrink$enabled4.adsenseFull) && /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(AdsenseBanner, {
+    }), form_factor === 'Desktop' && true === true && (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled5 = _adshrink.enabled) === null || _adshrink$enabled5 === void 0 ? void 0 : _adshrink$enabled5.adsenseFull) && /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(AdsenseBanner, {
       size: 'leaderboard'
-    })), form_factor === 'Tablet' && true === true && /*#__PURE__*/React.createElement(ErrorBoundary, null, (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled5 = _adshrink.enabled) === null || _adshrink$enabled5 === void 0 ? void 0 : _adshrink$enabled5.adsenseFull) && /*#__PURE__*/React.createElement(AdsenseBanner, {
+    })), form_factor === 'Tablet' && true === true && /*#__PURE__*/React.createElement(ErrorBoundary, null, (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled6 = _adshrink.enabled) === null || _adshrink$enabled6 === void 0 ? void 0 : _adshrink$enabled6.adsenseFull) && /*#__PURE__*/React.createElement(AdsenseBanner, {
       size: 'leaderboard'
     }), /*#__PURE__*/React.createElement(TaboolaBanner, {
       size: "Mid_Article_5X1"
