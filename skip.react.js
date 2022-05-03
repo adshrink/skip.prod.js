@@ -1181,7 +1181,8 @@ try {
 }
 
 const detectLang = navigator.language.length === 2 ? navigator.language : navigator.language.substr(0, 2);
-const detectLangStorage = !isEmpty(window.localStorage.getItem('language')) ? window.localStorage.getItem('language') === 'local' ? detectLang : window.localStorage.getItem('language') : detectLang; //var language = ___reactjsD.language[detectLangStorage];
+const detectLangStorage = detectLang; //( !isEmpty( window.localStorage.getItem('language') ) ? ( window.localStorage.getItem('language') === 'local' ? detectLang : window.localStorage.getItem('language') ) : detectLang );
+//var language = ___reactjsD.language[detectLangStorage];
 
 var language = ___reactjsD.language['en'];
 document.head || (document.head = document.getElementsByTagName('head')[0]);
@@ -2451,10 +2452,8 @@ class SkipButton extends React.Component {
 
           var url = !isEmpty(document.referrer) ? new URL(document.referrer) : {
             origin: 'emptyReferrer'
-          };
-          url = url.origin === 'emptyReferrer' ? !isEmpty(localStorage.getItem('_referrer')) ? {
-            origin: localStorage.getItem('_referrer')
-          } : url : url;
+          }; //url = (url.origin === 'emptyReferrer' ? (!isEmpty(localStorage.getItem('_referrer')) ? {origin: localStorage.getItem('_referrer')} : url ) : url);
+
           window[___reactjsD.o] = Object.assign({}, window[___reactjsD.o], {
             trusted: e.isTrusted,
             docReferrer: url.origin,
@@ -4220,16 +4219,16 @@ function ComponentChangeLanguage(props) {
       on: 'hover',
       onChange: function (select_languange, text, $selectedItem) {
         if (select_languange === 'local') {
-          language = ___reactjsD.language[detectLang];
-          window.localStorage.removeItem('language');
-          window.localStorage.removeItem('language_text');
+          language = ___reactjsD.language[detectLang]; //window.localStorage.removeItem('language');
+          //window.localStorage.removeItem('language_text');
+
           window.location.reload();
           return false;
         }
 
-        language = ___reactjsD.language[select_languange];
-        window.localStorage.setItem('language', select_languange);
-        window.localStorage.setItem('language_text', text);
+        language = ___reactjsD.language[select_languange]; //window.localStorage.setItem('language', select_languange);
+        //window.localStorage.setItem('language_text', text);
+
         window.location.reload();
       }
     });
@@ -4249,8 +4248,10 @@ function ComponentChangeLanguage(props) {
       ko: '한국의',
       zh: '中国'
     };
-    const language = window.localStorage.getItem('language');
-    const language_text = window.localStorage.getItem('language_text');
+    const language = 'en'; //window.localStorage.getItem('language');
+
+    const language_text = 'English'; //window.localStorage.getItem('language_text');
+
     var html = null;
 
     if (isEmpty(language) || language === 'local') {
@@ -7758,8 +7759,7 @@ class ComponentMessages extends React.Component {
           alerts: data
         });
         that.updateLocalStorage(true, data);
-      } else {
-        window.localStorage.removeItem('adshrink_alerts');
+      } else {//window.localStorage.removeItem('adshrink_alerts');
       }
 
       that.is_fetching = false;
@@ -7773,14 +7773,16 @@ class ComponentMessages extends React.Component {
     let date = new Date();
 
     if (bool) {
+      /*
       window.localStorage.setItem('adshrink_alerts', JSON.stringify({
-        last_update: date.getTime(),
-        data: data
-      }));
+          last_update: date.getTime(),
+          data: data
+      }) );
+      */
       return true;
     }
 
-    var storage_alerts = window.localStorage.getItem('adshrink_alerts');
+    var storage_alerts = {}; //window.localStorage.getItem('adshrink_alerts');
 
     if (isEmpty(storage_alerts)) {
       this.fetchAlerts();
@@ -11329,10 +11331,8 @@ class Prototype extends React.Component {
     };
     var url = !isEmpty(document.referrer) ? new URL(document.referrer) : {
       origin: 'emptyReferrer'
-    };
-    url = url.origin === 'emptyReferrer' ? !isEmpty(localStorage.getItem('_referrer')) ? {
-      origin: localStorage.getItem('_referrer')
-    } : url : url;
+    }; //url = (url.origin === 'emptyReferrer' ? (!isEmpty(localStorage.getItem('_referrer')) ? {origin: localStorage.getItem('_referrer')} : url ) : url);
+
     const deltaMouse = getDeltaMouse();
     if (!window[___reactjsD.o].hasOwnProperty('skipMouse')) window[___reactjsD.o] = Object.assign({}, window[___reactjsD.o], {
       skipMouse: {
@@ -11447,10 +11447,8 @@ class Prototype extends React.Component {
 
       var url = !isEmpty(document.referrer) ? new URL(document.referrer) : {
         origin: 'emptyReferrer'
-      };
-      url = url.origin === 'emptyReferrer' ? !isEmpty(localStorage.getItem('_referrer')) ? {
-        origin: localStorage.getItem('_referrer')
-      } : url : url;
+      }; //url = (url.origin === 'emptyReferrer' ? (!isEmpty(localStorage.getItem('_referrer')) ? {origin: localStorage.getItem('_referrer')} : url ) : url);
+
       const deltaMouse = getDeltaMouse();
       if (!window[___reactjsD.o].hasOwnProperty('skipMouse')) window[___reactjsD.o] = Object.assign({}, window[___reactjsD.o], {
         skipMouse: {
