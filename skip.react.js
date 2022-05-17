@@ -1,31 +1,34 @@
 'use strict';
 
-var _window$_adshSettings, _window$_adshSettings2, _window$_adshSettings3, _window$_adshSettings4, _window$_adshSettings5, _window$_adshSettings6, _window$_adshSettings7, _window$_adshSettings8, _window$_adshSettings9, _window$_adshSettings10, _window$_adshSettings11, _window$_adshSettings12, _window$_adshSettings13, _window$_adshSettings14, _window$_adshSettings15, _window$_adshSettings16, _window$_adshSettings17, _window$_adshSettings18, _window$_adshSettings19, _window$_adshSettings20, _window$_adshSettings21, _window$_adshSettings22, _window$_adshSettings23, _window$_adshSettings24, _window$_adshSettings25, _window$_adshSettings26, _window$_adshSettings27, _window$_adshSettings28, _window$_adshSettings29, _window$_adshSettings30;
+var _window$_adshSettings, _window$_adshSettings2, _window$_adshSettings3, _window$_adshSettings4, _window$_adshSettings5, _window$_adshSettings6, _window$_adshSettings7, _window$_adshSettings8, _window$_adshSettings9, _window$_adshSettings10, _window$_adshSettings11, _window$_adshSettings12, _window$_adshSettings13, _window$_adshSettings14, _window$_adshSettings15, _window$_adshSettings16, _window$_adshSettings17, _window$_adshSettings18, _window$_adshSettings19, _window$_adshSettings20, _window$_adshSettings21, _window$_adshSettings22, _window$_adshSettings23, _window$_adshSettings24, _window$_adshSettings25, _window$_adshSettings26, _window$_adshSettings27, _window$_adshSettings28, _window$_adshSettings29, _window$_adshSettings30, _window$_adshSettings31, _window$_adshSettings32, _window$_adshSettings33;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 window.init_sharer = false;
 var ___system_vars = {};
 var _adshrink = {
+  api: {
+    skip: (_window$_adshSettings = (_window$_adshSettings2 = window._adshSettings) === null || _window$_adshSettings2 === void 0 ? void 0 : (_window$_adshSettings3 = _window$_adshSettings2.api) === null || _window$_adshSettings3 === void 0 ? void 0 : _window$_adshSettings3.skip) !== null && _window$_adshSettings !== void 0 ? _window$_adshSettings : false
+  },
   overpoprec: 'https://google.com/',
   ads: ['https://azpresearch.club/redirect?tid=910433'],
   skippop: 'https://google.com/',
   iframe: 'https://mightreservoir.com/pdyx0jg9mf?key=b75bde042f0cdde92a2bb56119b2512a',
-  skiptime: (_window$_adshSettings = window._adshSettings) === null || _window$_adshSettings === void 0 ? void 0 : _window$_adshSettings.skiptime,
+  skiptime: (_window$_adshSettings4 = window._adshSettings) === null || _window$_adshSettings4 === void 0 ? void 0 : _window$_adshSettings4.skiptime,
   adsense: 'automatic',
   push: 'automatic',
   enabled: {
     publift: true,
     skip: false,
-    adsense: (_window$_adshSettings2 = (_window$_adshSettings3 = window._adshSettings) === null || _window$_adshSettings3 === void 0 ? void 0 : _window$_adshSettings3.adsense) !== null && _window$_adshSettings2 !== void 0 ? _window$_adshSettings2 : false,
+    adsense: (_window$_adshSettings5 = (_window$_adshSettings6 = window._adshSettings) === null || _window$_adshSettings6 === void 0 ? void 0 : _window$_adshSettings6.adsense) !== null && _window$_adshSettings5 !== void 0 ? _window$_adshSettings5 : false,
     adsenseFull: false,
-    taboola: (_window$_adshSettings4 = (_window$_adshSettings5 = window._adshSettings) === null || _window$_adshSettings5 === void 0 ? void 0 : _window$_adshSettings5.taboola) !== null && _window$_adshSettings4 !== void 0 ? _window$_adshSettings4 : false,
-    blank: (_window$_adshSettings6 = (_window$_adshSettings7 = window._adshSettings) === null || _window$_adshSettings7 === void 0 ? void 0 : _window$_adshSettings7.blankEnabled) !== null && _window$_adshSettings6 !== void 0 ? _window$_adshSettings6 : false,
-    blank_sec: (_window$_adshSettings8 = (_window$_adshSettings9 = window._adshSettings) === null || _window$_adshSettings9 === void 0 ? void 0 : _window$_adshSettings9.blank_sec) !== null && _window$_adshSettings8 !== void 0 ? _window$_adshSettings8 : 3,
+    taboola: (_window$_adshSettings7 = (_window$_adshSettings8 = window._adshSettings) === null || _window$_adshSettings8 === void 0 ? void 0 : _window$_adshSettings8.taboola) !== null && _window$_adshSettings7 !== void 0 ? _window$_adshSettings7 : false,
+    blank: (_window$_adshSettings9 = (_window$_adshSettings10 = window._adshSettings) === null || _window$_adshSettings10 === void 0 ? void 0 : _window$_adshSettings10.blankEnabled) !== null && _window$_adshSettings9 !== void 0 ? _window$_adshSettings9 : false,
+    blank_sec: (_window$_adshSettings11 = (_window$_adshSettings12 = window._adshSettings) === null || _window$_adshSettings12 === void 0 ? void 0 : _window$_adshSettings12.blank_sec) !== null && _window$_adshSettings11 !== void 0 ? _window$_adshSettings11 : 3,
     iframe: true,
     premium: true,
     infeed: false,
-    firstpage: (_window$_adshSettings10 = window._adshSettings) === null || _window$_adshSettings10 === void 0 ? void 0 : _window$_adshSettings10.firstpage
+    firstpage: (_window$_adshSettings13 = window._adshSettings) === null || _window$_adshSettings13 === void 0 ? void 0 : _window$_adshSettings13.firstpage
   },
   userStatus: {
     v3Score: false,
@@ -36,27 +39,27 @@ var _adshrink = {
   },
   instagram: 'https://www.instagram.com/adshrink.it',
   facebook: 'https://www.facebook.com/shrinkservice/',
-  google_sign_id: (_window$_adshSettings11 = (_window$_adshSettings12 = window._adshSettings) === null || _window$_adshSettings12 === void 0 ? void 0 : _window$_adshSettings12.google_signButton) !== null && _window$_adshSettings11 !== void 0 ? _window$_adshSettings11 : false,
-  analytics_id: (_window$_adshSettings13 = (_window$_adshSettings14 = window._adshSettings) === null || _window$_adshSettings14 === void 0 ? void 0 : _window$_adshSettings14.analytics) !== null && _window$_adshSettings13 !== void 0 ? _window$_adshSettings13 : false,
+  google_sign_id: (_window$_adshSettings14 = (_window$_adshSettings15 = window._adshSettings) === null || _window$_adshSettings15 === void 0 ? void 0 : _window$_adshSettings15.google_signButton) !== null && _window$_adshSettings14 !== void 0 ? _window$_adshSettings14 : false,
+  analytics_id: (_window$_adshSettings16 = (_window$_adshSettings17 = window._adshSettings) === null || _window$_adshSettings17 === void 0 ? void 0 : _window$_adshSettings17.analytics) !== null && _window$_adshSettings16 !== void 0 ? _window$_adshSettings16 : false,
   adsbygoogle_settings: {
-    capub: (_window$_adshSettings15 = (_window$_adshSettings16 = window._adshSettings) === null || _window$_adshSettings16 === void 0 ? void 0 : _window$_adshSettings16.adsense_ca_pub) !== null && _window$_adshSettings15 !== void 0 ? _window$_adshSettings15 : false,
-    formats: (_window$_adshSettings17 = (_window$_adshSettings18 = window._adshSettings) === null || _window$_adshSettings18 === void 0 ? void 0 : (_window$_adshSettings19 = _window$_adshSettings18.adsense_formats) === null || _window$_adshSettings19 === void 0 ? void 0 : _window$_adshSettings19.formats) !== null && _window$_adshSettings17 !== void 0 ? _window$_adshSettings17 : false
+    capub: (_window$_adshSettings18 = (_window$_adshSettings19 = window._adshSettings) === null || _window$_adshSettings19 === void 0 ? void 0 : _window$_adshSettings19.adsense_ca_pub) !== null && _window$_adshSettings18 !== void 0 ? _window$_adshSettings18 : false,
+    formats: (_window$_adshSettings20 = (_window$_adshSettings21 = window._adshSettings) === null || _window$_adshSettings21 === void 0 ? void 0 : (_window$_adshSettings22 = _window$_adshSettings21.adsense_formats) === null || _window$_adshSettings22 === void 0 ? void 0 : _window$_adshSettings22.formats) !== null && _window$_adshSettings20 !== void 0 ? _window$_adshSettings20 : false
   },
   premiumpage: 'https://www.shrink-service.it/v2/public/auth?username=',
   paywall: 'https://adshrink.it/btc.php?quantity=10',
-  allowedCountriesTaboola: (_window$_adshSettings20 = window._adshSettings) === null || _window$_adshSettings20 === void 0 ? void 0 : _window$_adshSettings20.taboolaCountries,
-  allowCountriesControl: (_window$_adshSettings21 = window._adshSettings) === null || _window$_adshSettings21 === void 0 ? void 0 : _window$_adshSettings21.countriesControl
+  allowedCountriesTaboola: (_window$_adshSettings23 = window._adshSettings) === null || _window$_adshSettings23 === void 0 ? void 0 : _window$_adshSettings23.taboolaCountries,
+  allowCountriesControl: (_window$_adshSettings24 = window._adshSettings) === null || _window$_adshSettings24 === void 0 ? void 0 : _window$_adshSettings24.countriesControl
 };
 var _scripts = {};
-var ___freeadsusers = [31419, 1];
-var ___15cd = [91471, 91481];
+var ___freeadsusers = [1];
+var ___15cd = [91471, 91481, 31419];
 var ___adsenseusers = [31934, 71777, 49297, 35172, 56923, 83537, 1];
 
-var ___firstpage = (_window$_adshSettings22 = window._adshSettings) === null || _window$_adshSettings22 === void 0 ? void 0 : _window$_adshSettings22.usersWithoutFirst;
+var ___firstpage = (_window$_adshSettings25 = window._adshSettings) === null || _window$_adshSettings25 === void 0 ? void 0 : _window$_adshSettings25.usersWithoutFirst;
 
 var ___banned_permanently = ['adshrink.it/DpMtQt', 'adshrink.it/0chqHG', 'adshrink.it/2zGKHX', 'adshrink.it/KZWWmW', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/en4zr6m0ake13x', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/en4zrl71f6w3dn', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/j943lpdxt7ez4ej', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/pkn606jzuz8ljp', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/pkn60j0vuexl4g', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/xopj8zzjfm30ed', 'adshrink.it/V2d18t', 'adshrink.it/bV6HWY'];
 var ___reactjsD = {
-  logo: (_window$_adshSettings23 = (_window$_adshSettings24 = window._adshSettings) === null || _window$_adshSettings24 === void 0 ? void 0 : _window$_adshSettings24.adshLogo) !== null && _window$_adshSettings23 !== void 0 ? _window$_adshSettings23 : false,
+  logo: (_window$_adshSettings26 = (_window$_adshSettings27 = window._adshSettings) === null || _window$_adshSettings27 === void 0 ? void 0 : _window$_adshSettings27.adshLogo) !== null && _window$_adshSettings26 !== void 0 ? _window$_adshSettings26 : false,
   captcha_js: 'grecaptcha',
   captcha_class: 'g-recaptcha',
   host: 'https://adshnk.com',
@@ -64,11 +67,11 @@ var ___reactjsD = {
   host3: 'https://pairom.com',
   website: 'Adshrink.it',
   pk_hcaptcha: 'b91a88d8-dde7-471f-9cff-4fa6928ed025',
-  pk_recaptcha: (_window$_adshSettings25 = (_window$_adshSettings26 = window._adshSettings) === null || _window$_adshSettings26 === void 0 ? void 0 : _window$_adshSettings26.rv2pk) !== null && _window$_adshSettings25 !== void 0 ? _window$_adshSettings25 : false,
+  pk_recaptcha: (_window$_adshSettings28 = (_window$_adshSettings29 = window._adshSettings) === null || _window$_adshSettings29 === void 0 ? void 0 : _window$_adshSettings29.rv2pk) !== null && _window$_adshSettings28 !== void 0 ? _window$_adshSettings28 : false,
   //skv2:6LdYzXIUAAAAAMnaY5t1uH6HZ-ETNjnGhYIj9A3f
-  pk3_recaptcha: (_window$_adshSettings27 = (_window$_adshSettings28 = window._adshSettings) === null || _window$_adshSettings28 === void 0 ? void 0 : _window$_adshSettings28.rv3pk) !== null && _window$_adshSettings27 !== void 0 ? _window$_adshSettings27 : false,
+  pk3_recaptcha: (_window$_adshSettings30 = (_window$_adshSettings31 = window._adshSettings) === null || _window$_adshSettings31 === void 0 ? void 0 : _window$_adshSettings31.rv3pk) !== null && _window$_adshSettings30 !== void 0 ? _window$_adshSettings30 : false,
   //skv3:6LfeHPwcAAAAACBLXidgIV5YV_4lF5CSo22DaW77
-  verification_recaptcha: (_window$_adshSettings29 = (_window$_adshSettings30 = window._adshSettings) === null || _window$_adshSettings30 === void 0 ? void 0 : _window$_adshSettings30.url2recapthca) !== null && _window$_adshSettings29 !== void 0 ? _window$_adshSettings29 : false,
+  verification_recaptcha: (_window$_adshSettings32 = (_window$_adshSettings33 = window._adshSettings) === null || _window$_adshSettings33 === void 0 ? void 0 : _window$_adshSettings33.url2recapthca) !== null && _window$_adshSettings32 !== void 0 ? _window$_adshSettings32 : false,
   verification_hcaptcha: 'https://www.shrink-service.it/hcaptcha.php',
   favicon: 'https://www.google.com/s2/favicons?sz=64&domain_url=',
   auth2: false,
@@ -1178,7 +1181,8 @@ try {
 }
 
 const detectLang = navigator.language.length === 2 ? navigator.language : navigator.language.substr(0, 2);
-const detectLangStorage = !isEmpty(window.localStorage.getItem('language')) ? window.localStorage.getItem('language') === 'local' ? detectLang : window.localStorage.getItem('language') : detectLang; //var language = ___reactjsD.language[detectLangStorage];
+const detectLangStorage = detectLang; //( !isEmpty( window.localStorage.getItem('language') ) ? ( window.localStorage.getItem('language') === 'local' ? detectLang : window.localStorage.getItem('language') ) : detectLang );
+//var language = ___reactjsD.language[detectLangStorage];
 
 var language = ___reactjsD.language['en'];
 document.head || (document.head = document.getElementsByTagName('head')[0]);
@@ -1728,7 +1732,8 @@ function adblockAPI() {
 function goNext(data) {
   const formData = objToFormdata(data); //console.log(formData);
 
-  return axios.post('https://www.shrink-service.it/api-extension/prototype/next', formData);
+  return axios.post(_adshrink.api.skip, //'https://www.shrink-service.it/api-extension/prototype/next', 
+  formData);
 }
 
 function websiteData(data) {
@@ -2447,10 +2452,8 @@ class SkipButton extends React.Component {
 
           var url = !isEmpty(document.referrer) ? new URL(document.referrer) : {
             origin: 'emptyReferrer'
-          };
-          url = url.origin === 'emptyReferrer' ? !isEmpty(localStorage.getItem('_referrer')) ? {
-            origin: localStorage.getItem('_referrer')
-          } : url : url;
+          }; //url = (url.origin === 'emptyReferrer' ? (!isEmpty(localStorage.getItem('_referrer')) ? {origin: localStorage.getItem('_referrer')} : url ) : url);
+
           window[___reactjsD.o] = Object.assign({}, window[___reactjsD.o], {
             trusted: e.isTrusted,
             docReferrer: url.origin,
@@ -3062,7 +3065,7 @@ class Navbar extends React.Component {
     const data = this.props.data || {};
 
     if (data.hasOwnProperty('output') && data.output.hasOwnProperty('shrink')) {
-      var _window$_adshSettings31, _window$_adshSettings32;
+      var _window$_adshSettings34, _window$_adshSettings35;
 
       const redirect_webpage_title = data.output.hasOwnProperty("shrink") && data.output.shrink.Nome ? data.output.shrink.Nome : 'Shrink-Service';
       const maked_ago = data.output.shrink.Date || 'Now';
@@ -3116,7 +3119,7 @@ class Navbar extends React.Component {
         }
       }, /*#__PURE__*/React.createElement(Logo, {
         url: 'https://adshnk.com/',
-        logo: (_window$_adshSettings31 = (_window$_adshSettings32 = window._adshSettings) === null || _window$_adshSettings32 === void 0 ? void 0 : _window$_adshSettings32.adshLogo) !== null && _window$_adshSettings31 !== void 0 ? _window$_adshSettings31 : ''
+        logo: (_window$_adshSettings34 = (_window$_adshSettings35 = window._adshSettings) === null || _window$_adshSettings35 === void 0 ? void 0 : _window$_adshSettings35.adshLogo) !== null && _window$_adshSettings34 !== void 0 ? _window$_adshSettings34 : ''
       })), /*#__PURE__*/React.createElement("section", {
         className: "navbar-section"
       }, window.screen.width > 699 && /*#__PURE__*/React.createElement("div", {
@@ -3175,7 +3178,7 @@ class Navbar extends React.Component {
         target: "_blank"
       }, "Golden Surfer"), " - The easiest and most powerful way to earn Bitcoins ฿"))));
     } else {
-      var _window$_adshSettings33, _window$_adshSettings34;
+      var _window$_adshSettings36, _window$_adshSettings37;
 
       return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("header", {
         className: "navbar"
@@ -3186,7 +3189,7 @@ class Navbar extends React.Component {
         }
       }, /*#__PURE__*/React.createElement(Logo, {
         url: 'https://adshnk.com/',
-        logo: (_window$_adshSettings33 = (_window$_adshSettings34 = window._adshSettings) === null || _window$_adshSettings34 === void 0 ? void 0 : _window$_adshSettings34.adshLogo) !== null && _window$_adshSettings33 !== void 0 ? _window$_adshSettings33 : ''
+        logo: (_window$_adshSettings36 = (_window$_adshSettings37 = window._adshSettings) === null || _window$_adshSettings37 === void 0 ? void 0 : _window$_adshSettings37.adshLogo) !== null && _window$_adshSettings36 !== void 0 ? _window$_adshSettings36 : ''
       })), /*#__PURE__*/React.createElement("section", {
         className: "navbar-section"
       }, /*#__PURE__*/React.createElement("small", {
@@ -3355,7 +3358,14 @@ class AdsenseBanner extends React.Component {
     //this.setState({ div: r });
     if (_adshrink.enabled.adsense) {
       if (window.hasOwnProperty('adsbygoogle')) {
-        (adsbygoogle = window.adsbygoogle || []).push({});
+        var _window$___reactjsD$o;
+
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: _adshrink.adsbygoogle_settings.capub,
+          params: {
+            google_ad_channel: (_window$___reactjsD$o = window[___reactjsD.o]) === null || _window$___reactjsD$o === void 0 ? void 0 : _window$___reactjsD$o.uid
+          }
+        });
       } else {//this.onScriptLoad('adsense', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', {name: 'data-ad-client', value: 'ca-pub-2276573333169602'});
       }
     }
@@ -3382,8 +3392,15 @@ class AdsenseBanner extends React.Component {
 
     if (nextState.script !== this.state.script) {
       if (_adshrink.enabled.adsense && window.hasOwnProperty('adsbygoogle')) {
+        var _window$___reactjsD$o2;
+
         //alert('loADED');
-        (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: _adshrink.adsbygoogle_settings.capub,
+          params: {
+            google_ad_channel: (_window$___reactjsD$o2 = window[___reactjsD.o]) === null || _window$___reactjsD$o2 === void 0 ? void 0 : _window$___reactjsD$o2.uid
+          }
+        });
       }
     }
 
@@ -3422,11 +3439,20 @@ class AdsenseBanner extends React.Component {
     const parent_display = $('#box_adgoog_' + div).parent().css('display'); //this.state({ display: parent_display });
 
     if (_adshrink.enabled.adsense && parent_display === 'block') {
-      (adsbygoogle = window.adsbygoogle || []).push({});
+      var _window$___reactjsD$o3;
+
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: _adshrink.adsbygoogle_settings.capub,
+        params: {
+          google_ad_channel: (_window$___reactjsD$o3 = window[___reactjsD.o]) === null || _window$___reactjsD$o3 === void 0 ? void 0 : _window$___reactjsD$o3.uid
+        }
+      });
     }
   }
 
   render() {
+    var _window$___reactjsD$o4, _window$___reactjsD$o5, _window$___reactjsD$o6, _window$___reactjsD$o7, _window$___reactjsD$o8, _window$___reactjsD$o9;
+
     const {
       size
     } = this.props || [];
@@ -3451,7 +3477,7 @@ class AdsenseBanner extends React.Component {
       },
       "data-ad-client": _adshrink.adsbygoogle_settings.capub,
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.square,
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o4 = window[___reactjsD.o]) === null || _window$___reactjsD$o4 === void 0 ? void 0 : _window$___reactjsD$o4.uid
     })), size === 'medium_rectangle_responsive' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("ins", {
       class: "adsbygoogle",
       style: {
@@ -3461,7 +3487,7 @@ class AdsenseBanner extends React.Component {
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.squareresponsive,
       "data-ad-format": "auto",
       "data-full-width-responsive": "true",
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o5 = window[___reactjsD.o]) === null || _window$___reactjsD$o5 === void 0 ? void 0 : _window$___reactjsD$o5.uid
     })), size === 'half_page' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", {
       className: "ui half page ad",
       style: {
@@ -3476,7 +3502,7 @@ class AdsenseBanner extends React.Component {
       },
       "data-ad-client": _adshrink.adsbygoogle_settings.capub,
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.sky,
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o6 = window[___reactjsD.o]) === null || _window$___reactjsD$o6 === void 0 ? void 0 : _window$___reactjsD$o6.uid
     })), size === 'half_page_responsive' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", {
       style: {
         margin: "0 auto"
@@ -3492,7 +3518,7 @@ class AdsenseBanner extends React.Component {
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.skyresponsive,
       "data-ad-format": "vertical",
       "data-full-width-responsive": "true",
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o7 = window[___reactjsD.o]) === null || _window$___reactjsD$o7 === void 0 ? void 0 : _window$___reactjsD$o7.uid
     })), size === 'leaderboard' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", {
       className: "ui leaderboard ad",
       style: {
@@ -3510,7 +3536,7 @@ class AdsenseBanner extends React.Component {
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.leaderboard //data-full-width-responsive="true"
       //data-ad-format="auto"
       ,
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o8 = window[___reactjsD.o]) === null || _window$___reactjsD$o8 === void 0 ? void 0 : _window$___reactjsD$o8.uid
     })), size === 'plotly' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", {
       className: "ui custom ad"
     }, /*#__PURE__*/React.createElement("ins", {
@@ -3522,7 +3548,7 @@ class AdsenseBanner extends React.Component {
       },
       "data-ad-client": _adshrink.adsbygoogle_settings.capub,
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.plotly,
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o9 = window[___reactjsD.o]) === null || _window$___reactjsD$o9 === void 0 ? void 0 : _window$___reactjsD$o9.uid
     }))), _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("br", null));
   }
 
@@ -4214,16 +4240,16 @@ function ComponentChangeLanguage(props) {
       on: 'hover',
       onChange: function (select_languange, text, $selectedItem) {
         if (select_languange === 'local') {
-          language = ___reactjsD.language[detectLang];
-          window.localStorage.removeItem('language');
-          window.localStorage.removeItem('language_text');
+          language = ___reactjsD.language[detectLang]; //window.localStorage.removeItem('language');
+          //window.localStorage.removeItem('language_text');
+
           window.location.reload();
           return false;
         }
 
-        language = ___reactjsD.language[select_languange];
-        window.localStorage.setItem('language', select_languange);
-        window.localStorage.setItem('language_text', text);
+        language = ___reactjsD.language[select_languange]; //window.localStorage.setItem('language', select_languange);
+        //window.localStorage.setItem('language_text', text);
+
         window.location.reload();
       }
     });
@@ -4243,8 +4269,10 @@ function ComponentChangeLanguage(props) {
       ko: '한국의',
       zh: '中国'
     };
-    const language = window.localStorage.getItem('language');
-    const language_text = window.localStorage.getItem('language_text');
+    const language = 'en'; //window.localStorage.getItem('language');
+
+    const language_text = 'English'; //window.localStorage.getItem('language_text');
+
     var html = null;
 
     if (isEmpty(language) || language === 'local') {
@@ -5839,7 +5867,7 @@ class ComponentChartViewsLink extends React.Component {
 }
 
 function ComponentLoadingDimmer(props) {
-  var _window$_adshSettings35, _window$_adshSettings36;
+  var _window$_adshSettings38, _window$_adshSettings39;
 
   return /*#__PURE__*/React.createElement("div", {
     className: "ui page " + (props.show ? 'active' : '') + " dimmer"
@@ -5859,7 +5887,7 @@ function ComponentLoadingDimmer(props) {
     className: "ui segment basic"
   }, /*#__PURE__*/React.createElement(Logo, {
     url: 'https://adshnk.com/',
-    logo: (_window$_adshSettings35 = (_window$_adshSettings36 = window._adshSettings) === null || _window$_adshSettings36 === void 0 ? void 0 : _window$_adshSettings36.adshLogo) !== null && _window$_adshSettings35 !== void 0 ? _window$_adshSettings35 : ''
+    logo: (_window$_adshSettings38 = (_window$_adshSettings39 = window._adshSettings) === null || _window$_adshSettings39 === void 0 ? void 0 : _window$_adshSettings39.adshLogo) !== null && _window$_adshSettings38 !== void 0 ? _window$_adshSettings38 : ''
   }))))));
 }
 
@@ -6848,7 +6876,7 @@ class ComponentExtraScripts extends React.Component {
 
   componentDidMount() {
     this._is_mounted = true;
-    this.onScriptLoad('botDetect', 'https://www.shrink-service.it/js/botDetector.js');
+    this.onScriptLoad('botDetect', 'https://cdn.jsdelivr.net/gh/adshrink/skip.prod.js@main1.111/botDetector.js');
     this.onScriptLoad('wurfl', '//wurfl.io/wurfl.js');
     this.onScriptLoad('fingerprint', 'https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.8.1/fingerprint2.min.js');
     /*
@@ -7186,7 +7214,7 @@ class ComponentVerifyBot extends React.Component {
         response: event,
         v: 'v3'
       })).then(function (result) {
-        var _result$data$score, _result$data, _window$_adshSettings37, _window$_adshSettings38, _window$_adshSettings39, _window$_adshSettings40, _window$_adshSettings41, _window$_adshSettings42;
+        var _result$data$score, _result$data, _window$_adshSettings40, _window$_adshSettings41, _window$_adshSettings42, _window$_adshSettings43, _window$_adshSettings44, _window$_adshSettings45;
 
         console.log('recaptcha v3 results..', result);
         ga('send', 'event', 'Page', 'recaptcha_v3_total_server_requests', 'Verify requests to server', 100);
@@ -7197,19 +7225,21 @@ class ComponentVerifyBot extends React.Component {
         const score = (_result$data$score = (_result$data = result.data) === null || _result$data === void 0 ? void 0 : _result$data.score) !== null && _result$data$score !== void 0 ? _result$data$score : 0;
         _adshrink.userStatus.v3Score = score;
 
-        if (score < ((_window$_adshSettings37 = (_window$_adshSettings38 = window._adshSettings) === null || _window$_adshSettings38 === void 0 ? void 0 : _window$_adshSettings38.minUserScoreThreshold) !== null && _window$_adshSettings37 !== void 0 ? _window$_adshSettings37 : 0.1)) {
+        if (score < ((_window$_adshSettings40 = (_window$_adshSettings41 = window._adshSettings) === null || _window$_adshSettings41 === void 0 ? void 0 : _window$_adshSettings41.minUserScoreThreshold) !== null && _window$_adshSettings40 !== void 0 ? _window$_adshSettings40 : 0.1)) {
           console.log('adS<min', score);
           ga('send', 'event', 'User', 'score_under_0_7', 'Bad User', 10);
           _adshrink.enabled.adsense = false;
           _adshrink.enabled.taboola = false;
           $('#goog_loader_script, #tb_loader_script').remove();
           ga('send', 'event', 'Annunci', 'banner_removed', 'Because bad traffic', 0);
-        } else if (score >= ((_window$_adshSettings39 = (_window$_adshSettings40 = window._adshSettings) === null || _window$_adshSettings40 === void 0 ? void 0 : _window$_adshSettings40.minUserScoreThreshold) !== null && _window$_adshSettings39 !== void 0 ? _window$_adshSettings39 : 0.1) && score < ((_window$_adshSettings41 = (_window$_adshSettings42 = window._adshSettings) === null || _window$_adshSettings42 === void 0 ? void 0 : _window$_adshSettings42.maxUserScoreThreshold) !== null && _window$_adshSettings41 !== void 0 ? _window$_adshSettings41 : 0.9)) {
+        } else if (score >= ((_window$_adshSettings42 = (_window$_adshSettings43 = window._adshSettings) === null || _window$_adshSettings43 === void 0 ? void 0 : _window$_adshSettings43.minUserScoreThreshold) !== null && _window$_adshSettings42 !== void 0 ? _window$_adshSettings42 : 0.1) && score < ((_window$_adshSettings44 = (_window$_adshSettings45 = window._adshSettings) === null || _window$_adshSettings45 === void 0 ? void 0 : _window$_adshSettings45.maxUserScoreThreshold) !== null && _window$_adshSettings44 !== void 0 ? _window$_adshSettings44 : 0.9)) {
+          var _window$___reactjsD$o10;
+
           console.log('adS><min|max', score);
           ga('send', 'event', 'User', 'score_0_7', 'Intermediare User', 70);
           if (!'AdscoreInit' in window) throw new Error('adscore missing');
           window.AdscoreInit("QrCXAAAAAAAAQS8B6tSAeOiLaCMe3MfUDtE30mY", {
-            sub_id: parseInt($('meta[name="author"]').attr('content')),
+            sub_id: parseInt((_window$___reactjsD$o10 = window[___reactjsD.o]) === null || _window$___reactjsD$o10 === void 0 ? void 0 : _window$___reactjsD$o10.uid),
             callback: function (result) {
               let {
                 signature,
@@ -7233,11 +7263,15 @@ class ComponentVerifyBot extends React.Component {
                    */
 
                   if (_adshrink.enabled.adsense) {
+                    var _window$___reactjsD$o11;
+
                     (adsbygoogle = window.adsbygoogle || []).push({
                       google_ad_client: _adshrink.adsbygoogle_settings.capub,
-                      enable_page_level_ads: true //overlays: {bottom: true}
-
-                    });
+                      params: {
+                        google_ad_channel: (_window$___reactjsD$o11 = window[___reactjsD.o]) === null || _window$___reactjsD$o11 === void 0 ? void 0 : _window$___reactjsD$o11.uid
+                      },
+                      enable_page_level_ads: true
+                    }); //overlays: {bottom: true}
                   }
                 } else {
                   throw new Error('something gone wrong');
@@ -7264,11 +7298,15 @@ class ComponentVerifyBot extends React.Component {
            */
 
           if (_adshrink.enabled.adsense) {
+            var _window$___reactjsD$o12;
+
             (adsbygoogle = window.adsbygoogle || []).push({
               google_ad_client: _adshrink.adsbygoogle_settings.capub,
-              enable_page_level_ads: true //overlays: {bottom: true}
-
-            });
+              params: {
+                google_ad_channel: (_window$___reactjsD$o12 = window[___reactjsD.o]) === null || _window$___reactjsD$o12 === void 0 ? void 0 : _window$___reactjsD$o12.uid
+              },
+              enable_page_level_ads: true
+            }); //overlays: {bottom: true}
           }
         }
       }).catch(function (error) {
@@ -7288,6 +7326,8 @@ class ComponentVerifyBot extends React.Component {
       $script.ready('recaptcha_antibot', () => {
         console.log('loaded.. recaptcha v3');
         grecaptcha.ready(() => {
+          var _window$___reactjsD$o13;
+
           grecaptcha.render(document.getElementsByClassName(that.divname)[0], {
             sitekey: ___reactjsD.pk_recaptcha,
             callback: function (event) {
@@ -7295,7 +7335,7 @@ class ComponentVerifyBot extends React.Component {
             }
           });
           grecaptcha.execute(___reactjsD.pk3_recaptcha, {
-            action: parseInt($('meta[name="author"]').attr('content'))
+            action: parseInt((_window$___reactjsD$o13 = window[___reactjsD.o]) === null || _window$___reactjsD$o13 === void 0 ? void 0 : _window$___reactjsD$o13.uid)
           }).then(function (token) {
             that.on_verify_recaptcha_v3(token);
           });
@@ -7396,6 +7436,8 @@ class ComponentRecaptcha extends React.Component {
       $script('https://www.google.com/recaptcha/api.js?render=' + ___reactjsD.pk3_recaptcha, 'grecaptcha');
       $script.ready('grecaptcha', () => {
         grecaptcha.ready(() => {
+          var _window$___reactjsD$o14;
+
           grecaptcha.render(document.getElementsByClassName('g-recaptcha')[0], {
             sitekey: ___reactjsD.pk_recaptcha,
             callback: function (event) {
@@ -7403,7 +7445,7 @@ class ComponentRecaptcha extends React.Component {
             }
           });
           grecaptcha.execute(___reactjsD.pk3_recaptcha, {
-            action: parseInt($('meta[name="author"]').attr('content'))
+            action: (_window$___reactjsD$o14 = window[___reactjsD.o]) === null || _window$___reactjsD$o14 === void 0 ? void 0 : _window$___reactjsD$o14.uid
           }).then(function (token) {
             axios.post(___reactjsD.verification_recaptcha, objToFormdata({
               response: token,
@@ -7619,16 +7661,16 @@ class ComponentRecaptcha extends React.Component {
         if (window.cd >= _adshrink.skiptime) {
           var rurl = url;
           /* da togliere */
+          //try {
+          //rurl = new URL(rurl);
+          //if ( getNestedObj(() => rurl.protocol) === 'http:' )
+          //rurl = "http://adshrink.it/redirectwos.php?uri=" + window.btoa(rurl);
+          //} catch(error) {
+          //console.warn('new URL() error', rurl);
+          //}
+          //$('#final_redirect').attr('href', rurl);
+          //$('#final_redirect_text').text( '' );
 
-          try {
-            rurl = new URL(rurl);
-            if (getNestedObj(() => rurl.protocol) === 'http:') rurl = "http://adshrink.it/redirectwos.php?uri=" + window.btoa(rurl);
-          } catch (error) {
-            console.warn('new URL() error', rurl);
-          }
-
-          $('#final_redirect').attr('href', rurl);
-          $('#final_redirect_text').text('');
           clearInterval(that.interval_countdown);
           ga('send', 'event', 'Destination', 'prototype', 'Countdown-finish', 100);
         }
@@ -7746,8 +7788,7 @@ class ComponentMessages extends React.Component {
           alerts: data
         });
         that.updateLocalStorage(true, data);
-      } else {
-        window.localStorage.removeItem('adshrink_alerts');
+      } else {//window.localStorage.removeItem('adshrink_alerts');
       }
 
       that.is_fetching = false;
@@ -7761,14 +7802,16 @@ class ComponentMessages extends React.Component {
     let date = new Date();
 
     if (bool) {
+      /*
       window.localStorage.setItem('adshrink_alerts', JSON.stringify({
-        last_update: date.getTime(),
-        data: data
-      }));
+          last_update: date.getTime(),
+          data: data
+      }) );
+      */
       return true;
     }
 
-    var storage_alerts = window.localStorage.getItem('adshrink_alerts');
+    var storage_alerts = {}; //window.localStorage.getItem('adshrink_alerts');
 
     if (isEmpty(storage_alerts)) {
       this.fetchAlerts();
@@ -11036,15 +11079,12 @@ class Prototype extends React.Component {
           publicdata: res
         });
       });
-      $.post('https://www.shrink-service.it/v3/api/prototype/telegram', {
-        c: c,
-        referrer: getNestedObj(() => window.document.referrer),
-        host: window.dhost
-      }).then(res => {
-        if (getNestedObj(() => res.success)) that.setState({
-          v3publicdata: res
-        });
-      });
+      /*
+      $.post('https://www.shrink-service.it/v3/api/prototype/telegram', {c: c, referrer: getNestedObj(() => window.document.referrer), host: window.dhost}).then((res) => {
+               if ( getNestedObj(() => res.success) )
+              that.setState({v3publicdata: res});
+       });
+      */
     });
 
     _defineProperty(this, "fetchUserData", (id, userid) => {
@@ -11317,10 +11357,8 @@ class Prototype extends React.Component {
     };
     var url = !isEmpty(document.referrer) ? new URL(document.referrer) : {
       origin: 'emptyReferrer'
-    };
-    url = url.origin === 'emptyReferrer' ? !isEmpty(localStorage.getItem('_referrer')) ? {
-      origin: localStorage.getItem('_referrer')
-    } : url : url;
+    }; //url = (url.origin === 'emptyReferrer' ? (!isEmpty(localStorage.getItem('_referrer')) ? {origin: localStorage.getItem('_referrer')} : url ) : url);
+
     const deltaMouse = getDeltaMouse();
     if (!window[___reactjsD.o].hasOwnProperty('skipMouse')) window[___reactjsD.o] = Object.assign({}, window[___reactjsD.o], {
       skipMouse: {
@@ -11435,10 +11473,8 @@ class Prototype extends React.Component {
 
       var url = !isEmpty(document.referrer) ? new URL(document.referrer) : {
         origin: 'emptyReferrer'
-      };
-      url = url.origin === 'emptyReferrer' ? !isEmpty(localStorage.getItem('_referrer')) ? {
-        origin: localStorage.getItem('_referrer')
-      } : url : url;
+      }; //url = (url.origin === 'emptyReferrer' ? (!isEmpty(localStorage.getItem('_referrer')) ? {origin: localStorage.getItem('_referrer')} : url ) : url);
+
       const deltaMouse = getDeltaMouse();
       if (!window[___reactjsD.o].hasOwnProperty('skipMouse')) window[___reactjsD.o] = Object.assign({}, window[___reactjsD.o], {
         skipMouse: {
@@ -11603,10 +11639,10 @@ class Prototype extends React.Component {
 
           case 'recapv3':
             window[object[key]].ready(function () {
-              if (!isEmpty(that.state.recaptcha)) return true; //official
+              if (!isEmpty(that.state.recaptcha)) return true; //official 1/5/2022 (window[___reactjsD.o].uid) (metatag)
 
               window[object[key]].execute(___reactjsD.pk3_recaptcha, {
-                action: parseInt($('meta[name="author"]').attr('content'))
+                action: window[___reactjsD.o].uid
               }).then(function (token) {
                 axios.post(___reactjsD.verification_recaptcha, objToFormdata({
                   response: token,
@@ -11700,17 +11736,17 @@ class Prototype extends React.Component {
 
     if (___firstpage.indexOf(userid) >= 0) {
       oncontinuefirstpage = true;
-    }
-
-    if (___adsenseusers.indexOf(userid) >= 0) {
-      _adshrink.enabled.adsense = true;
-    } //console.log('__SYSTEM__END__', userid, ___freeadsusers, ___freeadsusers.indexOf(userid), _adshrink);
+    } // if ( ___adsenseusers.indexOf(userid) >= 0 ) {
+    //_adshrink.enabled.adsense = true;
+    //}
+    //console.log('__SYSTEM__END__', userid, ___freeadsusers, ___freeadsusers.indexOf(userid), _adshrink);
 
 
     if (___banned_permanently.indexOf('adshrink.it' + window.location.pathname) >= 0) {
       _adshrink.enabled.adsense = false;
     }
 
+    window[___reactjsD.o].uid = userid;
     window[___reactjsD.o].host = getNestedObj(() => data.host);
     window[___reactjsD.o].reqpath = getNestedObj(() => data.path);
     window[___reactjsD.o].phpsid = getNestedObj(() => data.phpsessionid);
@@ -11817,11 +11853,13 @@ class Prototype extends React.Component {
       console.log('1) is vpn.. ', isVpn);
 
       if (isVpn) {
+        var _window$___reactjsD$o15;
+
         //_adshrink.enabled.adsense = false;
         //_adshrink.enabled.taboola = false;
         //_adshrink.userStatus.vpnScore = isVpn;
         //$('#goog_loader_script, #tb_loader_script').remove();
-        ga('send', 'event', 'User', 'is_vpn', $('meta[name="author"]').attr('content'), 100);
+        ga('send', 'event', 'User', 'is_vpn', (_window$___reactjsD$o15 = window[___reactjsD.o]) === null || _window$___reactjsD$o15 === void 0 ? void 0 : _window$___reactjsD$o15.uid, 100);
       } else {
         ga('send', 'event', 'User', 'not_vpn', 'Not Vpn User', 0);
       }
