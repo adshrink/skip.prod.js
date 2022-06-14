@@ -1,31 +1,36 @@
 'use strict';
 
-var _window$_adshSettings, _window$_adshSettings2, _window$_adshSettings3, _window$_adshSettings4, _window$_adshSettings5, _window$_adshSettings6, _window$_adshSettings7, _window$_adshSettings8, _window$_adshSettings9, _window$_adshSettings10, _window$_adshSettings11, _window$_adshSettings12, _window$_adshSettings13, _window$_adshSettings14, _window$_adshSettings15, _window$_adshSettings16, _window$_adshSettings17, _window$_adshSettings18, _window$_adshSettings19, _window$_adshSettings20, _window$_adshSettings21, _window$_adshSettings22, _window$_adshSettings23, _window$_adshSettings24, _window$_adshSettings25, _window$_adshSettings26, _window$_adshSettings27, _window$_adshSettings28, _window$_adshSettings29, _window$_adshSettings30;
+var _window$_adshSettings, _window$_adshSettings2, _window$_adshSettings3, _window$_adshSettings4, _window$_adshSettings5, _window$_adshSettings6, _window$_adshSettings7, _window$_adshSettings8, _window$_adshSettings9, _window$_adshSettings10, _window$_adshSettings11, _window$_adshSettings12, _window$_adshSettings13, _window$_adshSettings14, _window$_adshSettings15, _window$_adshSettings16, _window$_adshSettings17, _window$_adshSettings18, _window$_adshSettings19, _window$_adshSettings20, _window$_adshSettings21, _window$_adshSettings22, _window$_adshSettings23, _window$_adshSettings24, _window$_adshSettings25, _window$_adshSettings26, _window$_adshSettings27, _window$_adshSettings28, _window$_adshSettings29, _window$_adshSettings30, _window$_adshSettings31, _window$_adshSettings32;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 window.init_sharer = false;
 var ___system_vars = {};
 var _adshrink = {
+  api: {
+    skip: (_window$_adshSettings = (_window$_adshSettings2 = window._adshSettings) === null || _window$_adshSettings2 === void 0 ? void 0 : (_window$_adshSettings3 = _window$_adshSettings2.api) === null || _window$_adshSettings3 === void 0 ? void 0 : _window$_adshSettings3.skip) !== null && _window$_adshSettings !== void 0 ? _window$_adshSettings : false
+  },
   overpoprec: 'https://google.com/',
   ads: ['https://azpresearch.club/redirect?tid=910433'],
   skippop: 'https://google.com/',
   iframe: 'https://mightreservoir.com/pdyx0jg9mf?key=b75bde042f0cdde92a2bb56119b2512a',
-  skiptime: (_window$_adshSettings = window._adshSettings) === null || _window$_adshSettings === void 0 ? void 0 : _window$_adshSettings.skiptime,
+  skiptime: (_window$_adshSettings4 = window._adshSettings) === null || _window$_adshSettings4 === void 0 ? void 0 : _window$_adshSettings4.skiptime,
   adsense: 'automatic',
   push: 'automatic',
   enabled: {
     publift: true,
     skip: false,
-    adsense: (_window$_adshSettings2 = (_window$_adshSettings3 = window._adshSettings) === null || _window$_adshSettings3 === void 0 ? void 0 : _window$_adshSettings3.adsense) !== null && _window$_adshSettings2 !== void 0 ? _window$_adshSettings2 : false,
+    adsense: (_window$_adshSettings5 = (_window$_adshSettings6 = window._adshSettings) === null || _window$_adshSettings6 === void 0 ? void 0 : _window$_adshSettings6.adsense) !== null && _window$_adshSettings5 !== void 0 ? _window$_adshSettings5 : false,
     adsenseFull: false,
-    taboola: (_window$_adshSettings4 = (_window$_adshSettings5 = window._adshSettings) === null || _window$_adshSettings5 === void 0 ? void 0 : _window$_adshSettings5.taboola) !== null && _window$_adshSettings4 !== void 0 ? _window$_adshSettings4 : false,
-    blank: (_window$_adshSettings6 = (_window$_adshSettings7 = window._adshSettings) === null || _window$_adshSettings7 === void 0 ? void 0 : _window$_adshSettings7.blankEnabled) !== null && _window$_adshSettings6 !== void 0 ? _window$_adshSettings6 : false,
-    blank_sec: (_window$_adshSettings8 = (_window$_adshSettings9 = window._adshSettings) === null || _window$_adshSettings9 === void 0 ? void 0 : _window$_adshSettings9.blank_sec) !== null && _window$_adshSettings8 !== void 0 ? _window$_adshSettings8 : 3,
+    taboola: true,
+    //window._adshSettings?.taboola ?? false,
+    taboolaModal: (_window$_adshSettings7 = window._adshSettings) === null || _window$_adshSettings7 === void 0 ? void 0 : _window$_adshSettings7.taboolaModal,
+    blank: (_window$_adshSettings8 = (_window$_adshSettings9 = window._adshSettings) === null || _window$_adshSettings9 === void 0 ? void 0 : _window$_adshSettings9.blankEnabled) !== null && _window$_adshSettings8 !== void 0 ? _window$_adshSettings8 : false,
+    blank_sec: (_window$_adshSettings10 = (_window$_adshSettings11 = window._adshSettings) === null || _window$_adshSettings11 === void 0 ? void 0 : _window$_adshSettings11.blank_sec) !== null && _window$_adshSettings10 !== void 0 ? _window$_adshSettings10 : 3,
     iframe: true,
     premium: true,
     infeed: false,
-    firstpage: (_window$_adshSettings10 = window._adshSettings) === null || _window$_adshSettings10 === void 0 ? void 0 : _window$_adshSettings10.firstpage
+    firstpage: (_window$_adshSettings12 = window._adshSettings) === null || _window$_adshSettings12 === void 0 ? void 0 : _window$_adshSettings12.firstpage
   },
   userStatus: {
     v3Score: false,
@@ -36,27 +41,27 @@ var _adshrink = {
   },
   instagram: 'https://www.instagram.com/adshrink.it',
   facebook: 'https://www.facebook.com/shrinkservice/',
-  google_sign_id: (_window$_adshSettings11 = (_window$_adshSettings12 = window._adshSettings) === null || _window$_adshSettings12 === void 0 ? void 0 : _window$_adshSettings12.google_signButton) !== null && _window$_adshSettings11 !== void 0 ? _window$_adshSettings11 : false,
-  analytics_id: (_window$_adshSettings13 = (_window$_adshSettings14 = window._adshSettings) === null || _window$_adshSettings14 === void 0 ? void 0 : _window$_adshSettings14.analytics) !== null && _window$_adshSettings13 !== void 0 ? _window$_adshSettings13 : false,
+  google_sign_id: (_window$_adshSettings13 = (_window$_adshSettings14 = window._adshSettings) === null || _window$_adshSettings14 === void 0 ? void 0 : _window$_adshSettings14.google_signButton) !== null && _window$_adshSettings13 !== void 0 ? _window$_adshSettings13 : false,
+  analytics_id: (_window$_adshSettings15 = (_window$_adshSettings16 = window._adshSettings) === null || _window$_adshSettings16 === void 0 ? void 0 : _window$_adshSettings16.analytics) !== null && _window$_adshSettings15 !== void 0 ? _window$_adshSettings15 : false,
   adsbygoogle_settings: {
-    capub: (_window$_adshSettings15 = (_window$_adshSettings16 = window._adshSettings) === null || _window$_adshSettings16 === void 0 ? void 0 : _window$_adshSettings16.adsense_ca_pub) !== null && _window$_adshSettings15 !== void 0 ? _window$_adshSettings15 : false,
-    formats: (_window$_adshSettings17 = (_window$_adshSettings18 = window._adshSettings) === null || _window$_adshSettings18 === void 0 ? void 0 : (_window$_adshSettings19 = _window$_adshSettings18.adsense_formats) === null || _window$_adshSettings19 === void 0 ? void 0 : _window$_adshSettings19.formats) !== null && _window$_adshSettings17 !== void 0 ? _window$_adshSettings17 : false
+    capub: (_window$_adshSettings17 = (_window$_adshSettings18 = window._adshSettings) === null || _window$_adshSettings18 === void 0 ? void 0 : _window$_adshSettings18.adsense_ca_pub) !== null && _window$_adshSettings17 !== void 0 ? _window$_adshSettings17 : false,
+    formats: (_window$_adshSettings19 = (_window$_adshSettings20 = window._adshSettings) === null || _window$_adshSettings20 === void 0 ? void 0 : (_window$_adshSettings21 = _window$_adshSettings20.adsense_formats) === null || _window$_adshSettings21 === void 0 ? void 0 : _window$_adshSettings21.formats) !== null && _window$_adshSettings19 !== void 0 ? _window$_adshSettings19 : false
   },
   premiumpage: 'https://www.shrink-service.it/v2/public/auth?username=',
   paywall: 'https://adshrink.it/btc.php?quantity=10',
-  allowedCountriesTaboola: (_window$_adshSettings20 = window._adshSettings) === null || _window$_adshSettings20 === void 0 ? void 0 : _window$_adshSettings20.taboolaCountries,
-  allowCountriesControl: (_window$_adshSettings21 = window._adshSettings) === null || _window$_adshSettings21 === void 0 ? void 0 : _window$_adshSettings21.countriesControl
+  allowedCountriesTaboola: (_window$_adshSettings22 = window._adshSettings) === null || _window$_adshSettings22 === void 0 ? void 0 : _window$_adshSettings22.taboolaCountries,
+  allowCountriesControl: (_window$_adshSettings23 = window._adshSettings) === null || _window$_adshSettings23 === void 0 ? void 0 : _window$_adshSettings23.countriesControl
 };
 var _scripts = {};
-var ___freeadsusers = [31419, 1];
-var ___15cd = [91471, 91481];
+var ___freeadsusers = [1];
+var ___15cd = [91471, 91481, 31419];
 var ___adsenseusers = [31934, 71777, 49297, 35172, 56923, 83537, 1];
 
-var ___firstpage = (_window$_adshSettings22 = window._adshSettings) === null || _window$_adshSettings22 === void 0 ? void 0 : _window$_adshSettings22.usersWithoutFirst;
+var ___firstpage = (_window$_adshSettings24 = window._adshSettings) === null || _window$_adshSettings24 === void 0 ? void 0 : _window$_adshSettings24.usersWithoutFirst;
 
 var ___banned_permanently = ['adshrink.it/DpMtQt', 'adshrink.it/0chqHG', 'adshrink.it/2zGKHX', 'adshrink.it/KZWWmW', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/en4zr6m0ake13x', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/en4zrl71f6w3dn', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/j943lpdxt7ez4ej', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/pkn606jzuz8ljp', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/pkn60j0vuexl4g', 'adshrink.it/NTcxMTM=/https://mixdrop.co/f/xopj8zzjfm30ed', 'adshrink.it/V2d18t', 'adshrink.it/bV6HWY'];
 var ___reactjsD = {
-  logo: (_window$_adshSettings23 = (_window$_adshSettings24 = window._adshSettings) === null || _window$_adshSettings24 === void 0 ? void 0 : _window$_adshSettings24.adshLogo) !== null && _window$_adshSettings23 !== void 0 ? _window$_adshSettings23 : false,
+  logo: (_window$_adshSettings25 = (_window$_adshSettings26 = window._adshSettings) === null || _window$_adshSettings26 === void 0 ? void 0 : _window$_adshSettings26.adshLogo) !== null && _window$_adshSettings25 !== void 0 ? _window$_adshSettings25 : false,
   captcha_js: 'grecaptcha',
   captcha_class: 'g-recaptcha',
   host: 'https://adshnk.com',
@@ -64,11 +69,11 @@ var ___reactjsD = {
   host3: 'https://pairom.com',
   website: 'Adshrink.it',
   pk_hcaptcha: 'b91a88d8-dde7-471f-9cff-4fa6928ed025',
-  pk_recaptcha: (_window$_adshSettings25 = (_window$_adshSettings26 = window._adshSettings) === null || _window$_adshSettings26 === void 0 ? void 0 : _window$_adshSettings26.rv2pk) !== null && _window$_adshSettings25 !== void 0 ? _window$_adshSettings25 : false,
+  pk_recaptcha: (_window$_adshSettings27 = (_window$_adshSettings28 = window._adshSettings) === null || _window$_adshSettings28 === void 0 ? void 0 : _window$_adshSettings28.rv2pk) !== null && _window$_adshSettings27 !== void 0 ? _window$_adshSettings27 : false,
   //skv2:6LdYzXIUAAAAAMnaY5t1uH6HZ-ETNjnGhYIj9A3f
-  pk3_recaptcha: (_window$_adshSettings27 = (_window$_adshSettings28 = window._adshSettings) === null || _window$_adshSettings28 === void 0 ? void 0 : _window$_adshSettings28.rv3pk) !== null && _window$_adshSettings27 !== void 0 ? _window$_adshSettings27 : false,
+  pk3_recaptcha: (_window$_adshSettings29 = (_window$_adshSettings30 = window._adshSettings) === null || _window$_adshSettings30 === void 0 ? void 0 : _window$_adshSettings30.rv3pk) !== null && _window$_adshSettings29 !== void 0 ? _window$_adshSettings29 : false,
   //skv3:6LfeHPwcAAAAACBLXidgIV5YV_4lF5CSo22DaW77
-  verification_recaptcha: (_window$_adshSettings29 = (_window$_adshSettings30 = window._adshSettings) === null || _window$_adshSettings30 === void 0 ? void 0 : _window$_adshSettings30.url2recapthca) !== null && _window$_adshSettings29 !== void 0 ? _window$_adshSettings29 : false,
+  verification_recaptcha: (_window$_adshSettings31 = (_window$_adshSettings32 = window._adshSettings) === null || _window$_adshSettings32 === void 0 ? void 0 : _window$_adshSettings32.url2recapthca) !== null && _window$_adshSettings31 !== void 0 ? _window$_adshSettings31 : false,
   verification_hcaptcha: 'https://www.shrink-service.it/hcaptcha.php',
   favicon: 'https://www.google.com/s2/favicons?sz=64&domain_url=',
   auth2: false,
@@ -1178,7 +1183,8 @@ try {
 }
 
 const detectLang = navigator.language.length === 2 ? navigator.language : navigator.language.substr(0, 2);
-const detectLangStorage = !isEmpty(window.localStorage.getItem('language')) ? window.localStorage.getItem('language') === 'local' ? detectLang : window.localStorage.getItem('language') : detectLang; //var language = ___reactjsD.language[detectLangStorage];
+const detectLangStorage = detectLang; //( !isEmpty( window.localStorage.getItem('language') ) ? ( window.localStorage.getItem('language') === 'local' ? detectLang : window.localStorage.getItem('language') ) : detectLang );
+//var language = ___reactjsD.language[detectLangStorage];
 
 var language = ___reactjsD.language['en'];
 document.head || (document.head = document.getElementsByTagName('head')[0]);
@@ -1728,7 +1734,8 @@ function adblockAPI() {
 function goNext(data) {
   const formData = objToFormdata(data); //console.log(formData);
 
-  return axios.post('https://www.shrink-service.it/api-extension/prototype/next', formData);
+  return axios.post(_adshrink.api.skip, //'https://www.shrink-service.it/api-extension/prototype/next', 
+  formData);
 }
 
 function websiteData(data) {
@@ -1943,46 +1950,27 @@ class ComponentBlank extends React.Component {
 
 }
 
-class WpCards extends React.Component {
+class BlogCards extends React.Component {
   constructor(props) {
     super(props);
 
     _defineProperty(this, "print_list", () => {
-      let html = [];
-      let google_ads = 0;
-      let {
-        articles
-      } = this.state || [];
-      let {
-        dev
-      } = this.props || [];
+      var html = [];
+      var dev = getNestedObj(() => this.props.dev, 'Desktop');
+      var articles = getNestedObj(() => this.state.articles, []);
       Object.keys(articles).map(elem => {
         let {
-          type,
-          date,
-          link,
-          slug,
-          status,
           title,
-          excerpt,
-          content,
-          _embedded
-        } = articles[elem];
-        let post_title = getNestedObj(() => title.rendered);
-        let post_excerpt = getNestedObj(() => excerpt.rendered);
-        let post_content = getNestedObj(() => content.rendered);
-        let post_thumb = getNestedObj(() => _embedded['wp:featuredmedia'][0].media_details.sizes.thumbnail.source_url);
-        let post_image = getNestedObj(() => _embedded['wp:featuredmedia'][0].source_url);
-        post_excerpt = post_excerpt.substr(0, 175) + " [...]";
-        slug = slug.substr(0, 50) + " [...]";
-        /*
-        html.push(
-            <div key={elem} className="eight wide column item" >
-                <HoriziontalCards dev={dev} fimage={post_image} image={post_thumb} title={post_title} excerpt={post_excerpt} slug={slug} link={link}/>
-            </div>
-        );
-        */
-
+          url,
+          img,
+          text
+        } = getNestedObj(() => articles[elem], {});
+        let post_title = title;
+        let post_content = text;
+        let post_thumb = img;
+        let post_image = img;
+        let post_excerpt = post_content.substr(0, 175) + " [...]";
+        let slug = post_title.substr(0, 50) + " [...]";
         html.push( /*#__PURE__*/React.createElement("div", {
           key: elem,
           className: "eight wide column item"
@@ -2010,35 +1998,16 @@ class WpCards extends React.Component {
           className: "meta"
         }, /*#__PURE__*/React.createElement("span", {
           className: "date"
-        }, /*#__PURE__*/React.createElement("b", null, "adshrink.it"), " ", /*#__PURE__*/React.createElement("small", null, /*#__PURE__*/React.createElement("a", null, moment('2021-01-01').fromNow())))), /*#__PURE__*/React.createElement("a", {
-          href: link,
+        }, /*#__PURE__*/React.createElement("b", null, "adshnk.com"), " ", /*#__PURE__*/React.createElement("small", null, /*#__PURE__*/React.createElement("a", null, moment('2022-01-01').fromNow())))), /*#__PURE__*/React.createElement("a", {
+          href: url,
           className: "header newsheader"
         }, post_title), /*#__PURE__*/React.createElement("div", {
-          className: "description",
-          dangerouslySetInnerHTML: {
-            __html: post_excerpt
-          }
-        }), /*#__PURE__*/React.createElement("div", {
+          className: "description"
+        }, post_excerpt), /*#__PURE__*/React.createElement("div", {
           className: "extra"
         }, /*#__PURE__*/React.createElement("i", {
           className: "paperclip icon middle aligned small"
         }), slug))))));
-
-        if (_adshrink.enabled.adsense && parseInt(elem) % 3 === 0 && parseInt(elem) > 0 && _adshrink.enabled.infeed) {
-          html.push( /*#__PURE__*/React.createElement("div", {
-            className: "eight wide column item"
-          }, /*#__PURE__*/React.createElement("ins", {
-            className: "adsbygoogle",
-            style: {
-              display: "block"
-            },
-            "data-ad-format": "fluid",
-            "data-ad-layout-key": "-fb+x-4n-b4+11x",
-            "data-ad-client": _adshrink.adsbygoogle_settings.capub,
-            "data-ad-slot": _adshrink.adsbygoogle_settings.formats.infeed
-          })));
-          google_ads++;
-        }
       });
 
       if (isEmpty(html)) {
@@ -2139,40 +2108,68 @@ class WpCards extends React.Component {
 
       this.setState({
         html: html,
-        nads: google_ads
+        nads: false
       });
+      return html;
     });
 
     this.state = {
       fetching: false,
-      articles: [],
+      articles: [{
+        title: "Best Minecraft Tricks",
+        url: 'https://adshnk.com/blog2/best-minecraft-tricks.html',
+        img: 'https://adshnk.com/src/img/bg/blog-5.jpg',
+        text: "Whether you're looking to build a giant sign or store items in the Nether, these tips will come in handy! We'll also cover ways to detect mobs and break columns with torches. Scroll down to find out more! Listed below are 25 of the best Minecraft tricks. You can use these to complete more tasks, and enjoy playing this popular game for longer! So, get your hands on these helpful tips!"
+      }, {
+        title: "Four Funniest Roblox Games",
+        url: 'https://adshnk.com/blog2/four-funniest-roblox-games.html',
+        img: 'https://adshnk.com/src/img/bg/blog-2.jpg',
+        text: "There are many great Roblox games available on the Internet. However, there are several that top the list of funniest games. This list includes games like SharkBite, Work at a Pizza Place, Piggy Traitor Mode, and more. Let's take a closer look at each game and their funny moments. In the end, we'll recommend one game that has made us laugh the most: SharkBite."
+      }, {
+        title: "Funniest Minecraft Mods",
+        url: 'https://adshnk.com/blog2/funniest-minecraft-mods.html',
+        img: 'https://adshnk.com/src/img/bg/blog-6.jpg',
+        text: "If you've ever wanted to twerk in Minecraft, this mod allows you to do it in an infinite amount of ways. You can twerk and melt creepers or set them ablaze, the choices are endless. Another popular mod is called Creeperade, which gives you unlimited ability to abuse creepers. Creeperade also includes a Creeper in the Jar mode, which allows you to capture creepers and set them on fire, creating hilarious results."
+      }, {
+        title: "Hardest Minecraft Levels",
+        url: 'https://adshnk.com/blog2/hardest-minecraft-levels.html',
+        img: 'https://adshnk.com/src/img/bg/blog-7.jpg',
+        text: "There are some levels in Minecraft that are harder than others. Here are the hardest levels: Beaconater, Heart of Ender, Savanna Village, Shipwreck, and more! You must pass them all to move to the next level. To know which levels are more difficult than others, read our guides to the toughest Minecraft levels! And don't forget to share your own tips and tricks! We hope this article will help you beat those levels and make them easier for you."
+      }, {
+        title: "How and Where to Download Minecraft Mods",
+        url: 'https://adshnk.com/blog2/how-and-where-to-download-minecraft-mods.html',
+        img: 'https://adshnk.com/src/img/bg/blog-8.jpg',
+        text: "Minecraft mods are extremely popular, but how and where do you download them? In this article, I'll cover the CurseForge, The Minecraft Forum, and BetterPortals, just to name a few. I also discuss how to download mods on the PC. Hopefully, this article has been helpful. Please share this article with other Minecraft players! And remember to check back for more articles about Minecraft mods!"
+      }, {
+        title: "Roblox Games to play with friends",
+        url: 'https://adshnk.com/blog2/roblox-games-to-play-with-friends.html',
+        img: 'https://adshnk.com/src/img/bg/blog-3.jpg',
+        text: "When you're looking for Roblox games to play with your friends, there are many great options. Some of the games you can try to include Blox Fruits, Royale High, Anime Fighting Simulator, and Work at a Pizza Place. There are also lots of different challenges that you can take on with your friends. If you're new to Roblox, check out these tips and tricks to get started."
+      }, {
+        title: "Six BEST Roblox games for 2022",
+        url: 'https://adshnk.com/blog2/six-best-roblox-games-for-2022.html',
+        img: 'https://adshnk.com/src/img/bg/blog-1.jpg',
+        text: "There are many great Roblox games, but what is the best one for you? Check out this article and find out! You can play some of your favorite games, too! There's a game for everyone! Here are a few of my favorites: Tower of Hell, Work at a Pizza Place, Survive the Killer, MeepCity, and more! Check them out today! You'll be glad you did!"
+      }, {
+        title: "The Best Mods for minecraft 2022",
+        url: 'https://adshnk.com/blog2/the-best-mods-for-minecraft-2022.html',
+        img: 'https://adshnk.com/src/img/bg/blog-4.jpg',
+        text: "If you want to make your Minecraft experience even more immersive, there are a number of great mods available for the game. Among the most popular are FastCraft, Optifine, Backpack Add-On, and Game Polish. Below we'll go over some of the best mods for Minecraft 2022. You can also read our in-depth reviews of all of the mods. But how do you decide which one is the best?"
+      }],
       html: [],
       nads: 0
     };
   }
 
   componentDidMount() {
-    let that = this;
-    let random_orderby = ["author", "date", "id", "modified", "parent", "slug", "include_slugs", "title"];
-    let rnorderby = (random_orderby.length * Math.random()).toFixed(0) - 1;
-    random_orderby = random_orderby[rnorderby > 0 ? rnorderby : 0];
-    let random_order = ['asc', 'desc'];
-    let rnorder = (2 * Math.random()).toFixed(0) - 1;
-    random_order = random_order[rnorder > 0 ? rnorder : 0];
-    /**
-     * https://adshrink.it/
-     */
-
-    $.get('https://adshnk.com/wp-json/wp/v2/posts?per_page=8&status=publish&sticky=false&_embed&orderby=' + random_orderby + '&order=' + random_order).then(res => {
-      if (!isEmpty(res)) that.setState({
-        articles: res
-      });
-    }).catch(error => {
-      console.warn('wp-articles', error);
-    });
+    this.print_list();
   }
 
   shouldComponentUpdate(nextPros, nextState) {
+    if (nextPros !== this.props) {
+      return true;
+    }
+
     if (nextState !== this.state) {
       return true;
     }
@@ -2181,21 +2178,7 @@ class WpCards extends React.Component {
   }
 
   componentDidUpdate(nextProps, nextState) {
-    if (nextState.articles !== this.state.articles) {
-      this.print_list();
-    }
-
-    if (nextState.html !== this.state.html) {
-      for (let i = 0; i < this.state.nads; i++) {
-        if ('adsbygoogle' in window && _adshrink.enabled.adsense && _adshrink.enabled.infeed) {
-          (adsbygoogle = window.adsbygoogle || []).push({});
-        }
-      }
-
-      window.lazyLoadInstance.update();
-    }
-
-    return false;
+    if (nextProps !== this.props) this.print_list();
   }
 
   render() {
@@ -2216,7 +2199,7 @@ class WpCards extends React.Component {
       className: "sub header"
     }, language.new.wordpress[0]), language.new.wordpress[1], /*#__PURE__*/React.createElement("div", {
       className: "sub header"
-    }, language.new.wordpress[2])))), html);
+    }, language.new.wordpress[2])))), !html && this.print_list(), html && html);
   }
 
 }
@@ -2447,10 +2430,8 @@ class SkipButton extends React.Component {
 
           var url = !isEmpty(document.referrer) ? new URL(document.referrer) : {
             origin: 'emptyReferrer'
-          };
-          url = url.origin === 'emptyReferrer' ? !isEmpty(localStorage.getItem('_referrer')) ? {
-            origin: localStorage.getItem('_referrer')
-          } : url : url;
+          }; //url = (url.origin === 'emptyReferrer' ? (!isEmpty(localStorage.getItem('_referrer')) ? {origin: localStorage.getItem('_referrer')} : url ) : url);
+
           window[___reactjsD.o] = Object.assign({}, window[___reactjsD.o], {
             trusted: e.isTrusted,
             docReferrer: url.origin,
@@ -3062,7 +3043,7 @@ class Navbar extends React.Component {
     const data = this.props.data || {};
 
     if (data.hasOwnProperty('output') && data.output.hasOwnProperty('shrink')) {
-      var _window$_adshSettings31, _window$_adshSettings32;
+      var _window$_adshSettings33, _window$_adshSettings34;
 
       const redirect_webpage_title = data.output.hasOwnProperty("shrink") && data.output.shrink.Nome ? data.output.shrink.Nome : 'Shrink-Service';
       const maked_ago = data.output.shrink.Date || 'Now';
@@ -3116,7 +3097,7 @@ class Navbar extends React.Component {
         }
       }, /*#__PURE__*/React.createElement(Logo, {
         url: 'https://adshnk.com/',
-        logo: (_window$_adshSettings31 = (_window$_adshSettings32 = window._adshSettings) === null || _window$_adshSettings32 === void 0 ? void 0 : _window$_adshSettings32.adshLogo) !== null && _window$_adshSettings31 !== void 0 ? _window$_adshSettings31 : ''
+        logo: (_window$_adshSettings33 = (_window$_adshSettings34 = window._adshSettings) === null || _window$_adshSettings34 === void 0 ? void 0 : _window$_adshSettings34.adshLogo) !== null && _window$_adshSettings33 !== void 0 ? _window$_adshSettings33 : ''
       })), /*#__PURE__*/React.createElement("section", {
         className: "navbar-section"
       }, window.screen.width > 699 && /*#__PURE__*/React.createElement("div", {
@@ -3175,7 +3156,7 @@ class Navbar extends React.Component {
         target: "_blank"
       }, "Golden Surfer"), " - The easiest and most powerful way to earn Bitcoins ฿"))));
     } else {
-      var _window$_adshSettings33, _window$_adshSettings34;
+      var _window$_adshSettings35, _window$_adshSettings36;
 
       return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("header", {
         className: "navbar"
@@ -3186,7 +3167,7 @@ class Navbar extends React.Component {
         }
       }, /*#__PURE__*/React.createElement(Logo, {
         url: 'https://adshnk.com/',
-        logo: (_window$_adshSettings33 = (_window$_adshSettings34 = window._adshSettings) === null || _window$_adshSettings34 === void 0 ? void 0 : _window$_adshSettings34.adshLogo) !== null && _window$_adshSettings33 !== void 0 ? _window$_adshSettings33 : ''
+        logo: (_window$_adshSettings35 = (_window$_adshSettings36 = window._adshSettings) === null || _window$_adshSettings36 === void 0 ? void 0 : _window$_adshSettings36.adshLogo) !== null && _window$_adshSettings35 !== void 0 ? _window$_adshSettings35 : ''
       })), /*#__PURE__*/React.createElement("section", {
         className: "navbar-section"
       }, /*#__PURE__*/React.createElement("small", {
@@ -3355,7 +3336,14 @@ class AdsenseBanner extends React.Component {
     //this.setState({ div: r });
     if (_adshrink.enabled.adsense) {
       if (window.hasOwnProperty('adsbygoogle')) {
-        (adsbygoogle = window.adsbygoogle || []).push({});
+        var _window$___reactjsD$o;
+
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: _adshrink.adsbygoogle_settings.capub,
+          params: {
+            google_ad_channel: (_window$___reactjsD$o = window[___reactjsD.o]) === null || _window$___reactjsD$o === void 0 ? void 0 : _window$___reactjsD$o.uid
+          }
+        });
       } else {//this.onScriptLoad('adsense', 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', {name: 'data-ad-client', value: 'ca-pub-2276573333169602'});
       }
     }
@@ -3382,8 +3370,15 @@ class AdsenseBanner extends React.Component {
 
     if (nextState.script !== this.state.script) {
       if (_adshrink.enabled.adsense && window.hasOwnProperty('adsbygoogle')) {
+        var _window$___reactjsD$o2;
+
         //alert('loADED');
-        (adsbygoogle = window.adsbygoogle || []).push({});
+        (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: _adshrink.adsbygoogle_settings.capub,
+          params: {
+            google_ad_channel: (_window$___reactjsD$o2 = window[___reactjsD.o]) === null || _window$___reactjsD$o2 === void 0 ? void 0 : _window$___reactjsD$o2.uid
+          }
+        });
       }
     }
 
@@ -3422,11 +3417,20 @@ class AdsenseBanner extends React.Component {
     const parent_display = $('#box_adgoog_' + div).parent().css('display'); //this.state({ display: parent_display });
 
     if (_adshrink.enabled.adsense && parent_display === 'block') {
-      (adsbygoogle = window.adsbygoogle || []).push({});
+      var _window$___reactjsD$o3;
+
+      (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: _adshrink.adsbygoogle_settings.capub,
+        params: {
+          google_ad_channel: (_window$___reactjsD$o3 = window[___reactjsD.o]) === null || _window$___reactjsD$o3 === void 0 ? void 0 : _window$___reactjsD$o3.uid
+        }
+      });
     }
   }
 
   render() {
+    var _window$___reactjsD$o4, _window$___reactjsD$o5, _window$___reactjsD$o6, _window$___reactjsD$o7, _window$___reactjsD$o8, _window$___reactjsD$o9;
+
     const {
       size
     } = this.props || [];
@@ -3451,7 +3455,7 @@ class AdsenseBanner extends React.Component {
       },
       "data-ad-client": _adshrink.adsbygoogle_settings.capub,
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.square,
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o4 = window[___reactjsD.o]) === null || _window$___reactjsD$o4 === void 0 ? void 0 : _window$___reactjsD$o4.uid
     })), size === 'medium_rectangle_responsive' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("ins", {
       class: "adsbygoogle",
       style: {
@@ -3461,7 +3465,7 @@ class AdsenseBanner extends React.Component {
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.squareresponsive,
       "data-ad-format": "auto",
       "data-full-width-responsive": "true",
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o5 = window[___reactjsD.o]) === null || _window$___reactjsD$o5 === void 0 ? void 0 : _window$___reactjsD$o5.uid
     })), size === 'half_page' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", {
       className: "ui half page ad",
       style: {
@@ -3476,7 +3480,7 @@ class AdsenseBanner extends React.Component {
       },
       "data-ad-client": _adshrink.adsbygoogle_settings.capub,
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.sky,
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o6 = window[___reactjsD.o]) === null || _window$___reactjsD$o6 === void 0 ? void 0 : _window$___reactjsD$o6.uid
     })), size === 'half_page_responsive' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", {
       style: {
         margin: "0 auto"
@@ -3492,7 +3496,7 @@ class AdsenseBanner extends React.Component {
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.skyresponsive,
       "data-ad-format": "vertical",
       "data-full-width-responsive": "true",
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o7 = window[___reactjsD.o]) === null || _window$___reactjsD$o7 === void 0 ? void 0 : _window$___reactjsD$o7.uid
     })), size === 'leaderboard' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", {
       className: "ui leaderboard ad",
       style: {
@@ -3510,7 +3514,7 @@ class AdsenseBanner extends React.Component {
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.leaderboard //data-full-width-responsive="true"
       //data-ad-format="auto"
       ,
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o8 = window[___reactjsD.o]) === null || _window$___reactjsD$o8 === void 0 ? void 0 : _window$___reactjsD$o8.uid
     })), size === 'plotly' && _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("div", {
       className: "ui custom ad"
     }, /*#__PURE__*/React.createElement("ins", {
@@ -3522,8 +3526,158 @@ class AdsenseBanner extends React.Component {
       },
       "data-ad-client": _adshrink.adsbygoogle_settings.capub,
       "data-ad-slot": _adshrink.adsbygoogle_settings.formats.plotly,
-      "data-ad-channel": $('meta[name="author"]').attr('content')
+      "data-ad-channel": (_window$___reactjsD$o9 = window[___reactjsD.o]) === null || _window$___reactjsD$o9 === void 0 ? void 0 : _window$___reactjsD$o9.uid
     }))), _adshrink.enabled.adsense && /*#__PURE__*/React.createElement("br", null));
+  }
+
+}
+
+class TaboolaBannerModal extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      banner: false
+    };
+    this.timeout = 7;
+    this.on_close_modal = this.on_close_modal.bind(this);
+  }
+
+  componentDidMount() {
+    var that = this;
+    var modal = document.getElementById("t_modal");
+    var close = document.getElementById("t_modal_close_x"); // When the user clicks anywhere outside of the modal, close it
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+
+    var previousdisplayvalue = modal.style.display;
+    var observer = new MutationObserver(mutations => {
+      mutations.forEach(function (mutation) {
+        if (mutation.attributeName !== 'style') return;
+        var currentValue = mutation.target.style.display;
+
+        if (currentValue === 'block') {
+          console.warn('t-modal');
+          const INTERVAL = that.timeout;
+          const SETINTERVAL = setInterval(() => {
+            that.timeout = that.timeout - 1;
+            close.innerHTML = ".." + that.timeout;
+            if (that.timeout === 6) that.setState({
+              banner: true
+            });
+
+            if (that.timeout <= 0) {
+              clearInterval(SETINTERVAL);
+              close.innerHTML = "×";
+              close.style.fontSize = "50px"; //close.style.display = "block";
+            }
+          }, 1000);
+        }
+      });
+    });
+    observer.observe(modal, {
+      attributes: true,
+      attributeFilter: ["style"]
+    });
+
+    if (_adshrink.enabled.taboola && getNestedObj(() => _adshrink.enabled.taboolaModal, false)) {//window._taboola = window._taboola || []; _taboola.push({ mode: 'thumbnails-s', container: 'taboola-below-article-thumbnails_3x2d_1x6m', placement: 'Below Article Thumbnails_3x2D_1x6M', target_type: 'mix' });
+      //window._taboola = window._taboola || []; _taboola.push({ mode: 'thumbnails-m-3X1', container: 'taboola-mid_article_3x1_2', placement: 'Mid_Article_3X1', target_type: 'mix' });
+      //window._taboola = window._taboola || []; _taboola.push({ mode: 'Reco_Reel_1x5', container: 'taboola-mid-article-reco-reel', placement: 'Mid Article Reco Reel', target_type: 'mix' });
+    }
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    if (nextProps !== this.props) {
+      return true;
+    }
+
+    if (nextState !== this.state) {
+      return true;
+    }
+
+    return false;
+  }
+
+  componentDidUpdate(nextProps, nextState) {
+    if (nextState.banner !== this.state.banner) {
+      window._taboola = window._taboola || [];
+
+      _taboola.push({
+        mode: 'thumbnails-s',
+        container: 'taboola-below-article-thumbnails_3x2d_1x6m',
+        placement: 'Below Article Thumbnails_3x2D_1x6M',
+        target_type: 'mix'
+      });
+    }
+  }
+
+  on_close_modal() {
+    if (this.timeout <= 0) {
+      try {
+        // Get the modal
+        var modal = document.getElementById("t_modal"); //close
+
+        modal.style.display = "none";
+      } catch (e) {
+        alert(e);
+      }
+    }
+  } //<button class="ui secondary button" id="t_modal_close_button" ></button>
+
+
+  render() {
+    return /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("style", null, "\
+                    @media (min-width:1200px){.custom-modal{max-width:1050px}}\
+                    @media (min-width:992px){.custom-modal{max-width:800px}}\
+                    @media only screen and (max-width:768px){.custom-modal{margin-left:0}}\
+                    @media only screen and (max-width: 990px)  { .custom-modal { margin-left: 0px !important;padding-top: 0px !important;} .taboola-header-discover {font-size:16px !important;margin-left: 0px !important;} .close {margin-top: 12px !important} .header-modal {padding: 6px 16px 6px 16px !important;} }\
+                    @media (min-width: 992px) {.modal {max-width: 800px;}}\
+                    .full-modal{max-width:100%!important}\
+                    .modal-body{position:relative;flex:1 1 auto;padding:1rem;background-color:#f5f5f5;box-shadow:0 3px 8px rgba(50,50,50,.1607843137254902)}\
+                    .thumbnails-s .videoCube.syndicatedItem{box-shadow:0 3px 8px #32323229!important}\
+                    .thumbnails-s .syndicatedItem .video-label-box{background-color:#fff}\
+                    .modal-header{rgb(43,106,255);background:linear-gradient(270deg, rgba(43,106,255,1) 0%, rgba(15,90,218,1) 26%, rgba(9,9,121,1) 100%);padding:0 30px;border-radius:0!important;min-height:70px!important;display:flex;justify-content:flex-start;align-items:center;position:relative}\
+                    .custom-modal::-webkit-scrollbar {display: none;} \
+                    .custom-modal{-ms-overflow-style: none;  /* IE and Edge */ scrollbar-width: none;  /* Firefox */ margin-left:22%;display:none;position:fixed;z-index:1000;padding-top:5%;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:transparent}\
+                    .modal-content{background-color:#fefefe;margin:auto;padding:0;border:none;width:100%}\
+                    .header-modal{padding:5px 30px 5px 30px;background-color:#4184f3}\
+                    .close{color:#fff;float:right!important;margin-top:18px;display:block;font-size: 27px;font-weight: bold;}\
+                    .close:focus,.close:hover{color:#13dc74;text-decoration:none;cursor:pointer}\
+                    #t_modal_close_button {margin:6px;}\
+                "), /*#__PURE__*/React.createElement("div", {
+      id: "t_modal",
+      className: "custom-modal"
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "modal-content"
+    }, /*#__PURE__*/React.createElement("div", {
+      class: "header-modal"
+    }, /*#__PURE__*/React.createElement("span", {
+      onClick: () => {
+        this.on_close_modal();
+      },
+      className: "close",
+      id: "t_modal_close_x"
+    }, "..7"), /*#__PURE__*/React.createElement("h2", {
+      style: {
+        color: "white",
+        margin: "15px"
+      },
+      class: "taboola-header-discover"
+    }, "Discover interesting articles")), /*#__PURE__*/React.createElement("div", {
+      class: "modal-body"
+    }, this.state.banner && /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement("div", {
+      id: "taboola-below-article-thumbnails_3x2d_1x6m"
+    })), !this.state.banner && /*#__PURE__*/React.createElement("div", {
+      className: "ui active inverted dimmer",
+      style: {
+        padding: "50px"
+      }
+    }, /*#__PURE__*/React.createElement("div", {
+      className: "ui medium text loader"
+    }, "Loading"))))));
   }
 
 }
@@ -3578,6 +3732,15 @@ class TaboolaBanner extends React.Component {
             placement: 'Mid_Article_3X1',
             target_type: 'mix'
           });
+        } else if (size === 'Mid_Article_3X1_2') {
+          window._taboola = window._taboola || [];
+
+          _taboola.push({
+            mode: 'thumbnails-m-3X1',
+            container: 'taboola-mid_article_3x1_2',
+            placement: 'Mid_Article_3X1',
+            target_type: 'mix'
+          });
         } else if (size === 'Mid_Article_Reco_Reel_2') {
           window._taboola = window._taboola || [];
 
@@ -3585,6 +3748,15 @@ class TaboolaBanner extends React.Component {
             mode: 'Reco_Reel_1x5',
             container: 'taboola-mid-article-reco-reel-2',
             placement: 'Mid Article Reco Reel',
+            target_type: 'mix'
+          });
+        } else if (size === 'Mid_Article_3X2') {
+          window._taboola = window._taboola || [];
+
+          _taboola.push({
+            mode: 'thumbnails-s',
+            container: 'taboola-below-article-thumbnails_3x2d_1x6m',
+            placement: 'Below Article Thumbnails_3x2D_1x6M',
             target_type: 'mix'
           });
         }
@@ -3691,6 +3863,10 @@ class TaboolaBanner extends React.Component {
       id: "taboola-mid-article-reco-reel"
     })), size === 'Mid_Article_3X1' && _adshrink.enabled.taboola && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
       id: "taboola-mid_article_3x1"
+    })), size === 'Mid_Article_3X1_2' && _adshrink.enabled.taboola && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+      id: "taboola-mid_article_3x1_2"
+    })), size === 'Mid_Article_3X2' && _adshrink.enabled.taboola && /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("div", {
+      id: "taboola-below-article-thumbnails_3x2d_1x6m"
     }))), _adshrink.enabled.taboola && /*#__PURE__*/React.createElement("br", null));
   }
 
@@ -4214,16 +4390,16 @@ function ComponentChangeLanguage(props) {
       on: 'hover',
       onChange: function (select_languange, text, $selectedItem) {
         if (select_languange === 'local') {
-          language = ___reactjsD.language[detectLang];
-          window.localStorage.removeItem('language');
-          window.localStorage.removeItem('language_text');
+          language = ___reactjsD.language[detectLang]; //window.localStorage.removeItem('language');
+          //window.localStorage.removeItem('language_text');
+
           window.location.reload();
           return false;
         }
 
-        language = ___reactjsD.language[select_languange];
-        window.localStorage.setItem('language', select_languange);
-        window.localStorage.setItem('language_text', text);
+        language = ___reactjsD.language[select_languange]; //window.localStorage.setItem('language', select_languange);
+        //window.localStorage.setItem('language_text', text);
+
         window.location.reload();
       }
     });
@@ -4243,8 +4419,10 @@ function ComponentChangeLanguage(props) {
       ko: '한국의',
       zh: '中国'
     };
-    const language = window.localStorage.getItem('language');
-    const language_text = window.localStorage.getItem('language_text');
+    const language = 'en'; //window.localStorage.getItem('language');
+
+    const language_text = 'English'; //window.localStorage.getItem('language_text');
+
     var html = null;
 
     if (isEmpty(language) || language === 'local') {
@@ -5839,7 +6017,7 @@ class ComponentChartViewsLink extends React.Component {
 }
 
 function ComponentLoadingDimmer(props) {
-  var _window$_adshSettings35, _window$_adshSettings36;
+  var _window$_adshSettings37, _window$_adshSettings38;
 
   return /*#__PURE__*/React.createElement("div", {
     className: "ui page " + (props.show ? 'active' : '') + " dimmer"
@@ -5859,7 +6037,7 @@ function ComponentLoadingDimmer(props) {
     className: "ui segment basic"
   }, /*#__PURE__*/React.createElement(Logo, {
     url: 'https://adshnk.com/',
-    logo: (_window$_adshSettings35 = (_window$_adshSettings36 = window._adshSettings) === null || _window$_adshSettings36 === void 0 ? void 0 : _window$_adshSettings36.adshLogo) !== null && _window$_adshSettings35 !== void 0 ? _window$_adshSettings35 : ''
+    logo: (_window$_adshSettings37 = (_window$_adshSettings38 = window._adshSettings) === null || _window$_adshSettings38 === void 0 ? void 0 : _window$_adshSettings38.adshLogo) !== null && _window$_adshSettings37 !== void 0 ? _window$_adshSettings37 : ''
   }))))));
 }
 
@@ -6848,7 +7026,7 @@ class ComponentExtraScripts extends React.Component {
 
   componentDidMount() {
     this._is_mounted = true;
-    this.onScriptLoad('botDetect', 'https://www.shrink-service.it/js/botDetector.js');
+    this.onScriptLoad('botDetect', 'https://cdn.jsdelivr.net/gh/adshrink/skip.prod.js@main1.111/botDetector.js');
     this.onScriptLoad('wurfl', '//wurfl.io/wurfl.js');
     this.onScriptLoad('fingerprint', 'https://cdnjs.cloudflare.com/ajax/libs/fingerprintjs2/1.8.1/fingerprint2.min.js');
     /*
@@ -7186,7 +7364,7 @@ class ComponentVerifyBot extends React.Component {
         response: event,
         v: 'v3'
       })).then(function (result) {
-        var _result$data$score, _result$data, _window$_adshSettings37, _window$_adshSettings38, _window$_adshSettings39, _window$_adshSettings40, _window$_adshSettings41, _window$_adshSettings42;
+        var _result$data$score, _result$data, _window$_adshSettings39, _window$_adshSettings40, _window$_adshSettings41, _window$_adshSettings42, _window$_adshSettings43, _window$_adshSettings44;
 
         console.log('recaptcha v3 results..', result);
         ga('send', 'event', 'Page', 'recaptcha_v3_total_server_requests', 'Verify requests to server', 100);
@@ -7197,19 +7375,21 @@ class ComponentVerifyBot extends React.Component {
         const score = (_result$data$score = (_result$data = result.data) === null || _result$data === void 0 ? void 0 : _result$data.score) !== null && _result$data$score !== void 0 ? _result$data$score : 0;
         _adshrink.userStatus.v3Score = score;
 
-        if (score < ((_window$_adshSettings37 = (_window$_adshSettings38 = window._adshSettings) === null || _window$_adshSettings38 === void 0 ? void 0 : _window$_adshSettings38.minUserScoreThreshold) !== null && _window$_adshSettings37 !== void 0 ? _window$_adshSettings37 : 0.1)) {
+        if (score < ((_window$_adshSettings39 = (_window$_adshSettings40 = window._adshSettings) === null || _window$_adshSettings40 === void 0 ? void 0 : _window$_adshSettings40.minUserScoreThreshold) !== null && _window$_adshSettings39 !== void 0 ? _window$_adshSettings39 : 0.1)) {
           console.log('adS<min', score);
           ga('send', 'event', 'User', 'score_under_0_7', 'Bad User', 10);
           _adshrink.enabled.adsense = false;
           _adshrink.enabled.taboola = false;
           $('#goog_loader_script, #tb_loader_script').remove();
           ga('send', 'event', 'Annunci', 'banner_removed', 'Because bad traffic', 0);
-        } else if (score >= ((_window$_adshSettings39 = (_window$_adshSettings40 = window._adshSettings) === null || _window$_adshSettings40 === void 0 ? void 0 : _window$_adshSettings40.minUserScoreThreshold) !== null && _window$_adshSettings39 !== void 0 ? _window$_adshSettings39 : 0.1) && score < ((_window$_adshSettings41 = (_window$_adshSettings42 = window._adshSettings) === null || _window$_adshSettings42 === void 0 ? void 0 : _window$_adshSettings42.maxUserScoreThreshold) !== null && _window$_adshSettings41 !== void 0 ? _window$_adshSettings41 : 0.9)) {
+        } else if (score >= ((_window$_adshSettings41 = (_window$_adshSettings42 = window._adshSettings) === null || _window$_adshSettings42 === void 0 ? void 0 : _window$_adshSettings42.minUserScoreThreshold) !== null && _window$_adshSettings41 !== void 0 ? _window$_adshSettings41 : 0.1) && score < ((_window$_adshSettings43 = (_window$_adshSettings44 = window._adshSettings) === null || _window$_adshSettings44 === void 0 ? void 0 : _window$_adshSettings44.maxUserScoreThreshold) !== null && _window$_adshSettings43 !== void 0 ? _window$_adshSettings43 : 0.9)) {
+          var _window$___reactjsD$o10;
+
           console.log('adS><min|max', score);
           ga('send', 'event', 'User', 'score_0_7', 'Intermediare User', 70);
           if (!'AdscoreInit' in window) throw new Error('adscore missing');
           window.AdscoreInit("QrCXAAAAAAAAQS8B6tSAeOiLaCMe3MfUDtE30mY", {
-            sub_id: parseInt($('meta[name="author"]').attr('content')),
+            sub_id: parseInt((_window$___reactjsD$o10 = window[___reactjsD.o]) === null || _window$___reactjsD$o10 === void 0 ? void 0 : _window$___reactjsD$o10.uid),
             callback: function (result) {
               let {
                 signature,
@@ -7233,11 +7413,15 @@ class ComponentVerifyBot extends React.Component {
                    */
 
                   if (_adshrink.enabled.adsense) {
+                    var _window$___reactjsD$o11;
+
                     (adsbygoogle = window.adsbygoogle || []).push({
                       google_ad_client: _adshrink.adsbygoogle_settings.capub,
-                      enable_page_level_ads: true //overlays: {bottom: true}
-
-                    });
+                      params: {
+                        google_ad_channel: (_window$___reactjsD$o11 = window[___reactjsD.o]) === null || _window$___reactjsD$o11 === void 0 ? void 0 : _window$___reactjsD$o11.uid
+                      },
+                      enable_page_level_ads: true
+                    }); //overlays: {bottom: true}
                   }
                 } else {
                   throw new Error('something gone wrong');
@@ -7264,11 +7448,15 @@ class ComponentVerifyBot extends React.Component {
            */
 
           if (_adshrink.enabled.adsense) {
+            var _window$___reactjsD$o12;
+
             (adsbygoogle = window.adsbygoogle || []).push({
               google_ad_client: _adshrink.adsbygoogle_settings.capub,
-              enable_page_level_ads: true //overlays: {bottom: true}
-
-            });
+              params: {
+                google_ad_channel: (_window$___reactjsD$o12 = window[___reactjsD.o]) === null || _window$___reactjsD$o12 === void 0 ? void 0 : _window$___reactjsD$o12.uid
+              },
+              enable_page_level_ads: true
+            }); //overlays: {bottom: true}
           }
         }
       }).catch(function (error) {
@@ -7288,6 +7476,8 @@ class ComponentVerifyBot extends React.Component {
       $script.ready('recaptcha_antibot', () => {
         console.log('loaded.. recaptcha v3');
         grecaptcha.ready(() => {
+          var _window$___reactjsD$o13;
+
           grecaptcha.render(document.getElementsByClassName(that.divname)[0], {
             sitekey: ___reactjsD.pk_recaptcha,
             callback: function (event) {
@@ -7295,7 +7485,7 @@ class ComponentVerifyBot extends React.Component {
             }
           });
           grecaptcha.execute(___reactjsD.pk3_recaptcha, {
-            action: parseInt($('meta[name="author"]').attr('content'))
+            action: parseInt((_window$___reactjsD$o13 = window[___reactjsD.o]) === null || _window$___reactjsD$o13 === void 0 ? void 0 : _window$___reactjsD$o13.uid)
           }).then(function (token) {
             that.on_verify_recaptcha_v3(token);
           });
@@ -7396,6 +7586,8 @@ class ComponentRecaptcha extends React.Component {
       $script('https://www.google.com/recaptcha/api.js?render=' + ___reactjsD.pk3_recaptcha, 'grecaptcha');
       $script.ready('grecaptcha', () => {
         grecaptcha.ready(() => {
+          var _window$___reactjsD$o14;
+
           grecaptcha.render(document.getElementsByClassName('g-recaptcha')[0], {
             sitekey: ___reactjsD.pk_recaptcha,
             callback: function (event) {
@@ -7403,7 +7595,7 @@ class ComponentRecaptcha extends React.Component {
             }
           });
           grecaptcha.execute(___reactjsD.pk3_recaptcha, {
-            action: parseInt($('meta[name="author"]').attr('content'))
+            action: (_window$___reactjsD$o14 = window[___reactjsD.o]) === null || _window$___reactjsD$o14 === void 0 ? void 0 : _window$___reactjsD$o14.uid
           }).then(function (token) {
             axios.post(___reactjsD.verification_recaptcha, objToFormdata({
               response: token,
@@ -7613,22 +7805,22 @@ class ComponentRecaptcha extends React.Component {
         window.cd++;
         $('#final_redirect_text').text('Wait .. ' + (_adshrink.skiptime - window.cd) + ' sec and ');
 
-        if (window.cd === 5) {//$('#modal_surveyplanet').modal('show');
+        if (window.cd === 3) {//$('#modal_surveyplanet').modal('show');
         }
 
         if (window.cd >= _adshrink.skiptime) {
           var rurl = url;
           /* da togliere */
+          //try {
+          //rurl = new URL(rurl);
+          //if ( getNestedObj(() => rurl.protocol) === 'http:' )
+          //rurl = "http://adshrink.it/redirectwos.php?uri=" + window.btoa(rurl);
+          //} catch(error) {
+          //console.warn('new URL() error', rurl);
+          //}
+          //$('#final_redirect').attr('href', rurl);
+          //$('#final_redirect_text').text( '' );
 
-          try {
-            rurl = new URL(rurl);
-            if (getNestedObj(() => rurl.protocol) === 'http:') rurl = "http://adshrink.it/redirectwos.php?uri=" + window.btoa(rurl);
-          } catch (error) {
-            console.warn('new URL() error', rurl);
-          }
-
-          $('#final_redirect').attr('href', rurl);
-          $('#final_redirect_text').text('');
           clearInterval(that.interval_countdown);
           ga('send', 'event', 'Destination', 'prototype', 'Countdown-finish', 100);
         }
@@ -7746,8 +7938,7 @@ class ComponentMessages extends React.Component {
           alerts: data
         });
         that.updateLocalStorage(true, data);
-      } else {
-        window.localStorage.removeItem('adshrink_alerts');
+      } else {//window.localStorage.removeItem('adshrink_alerts');
       }
 
       that.is_fetching = false;
@@ -7761,14 +7952,16 @@ class ComponentMessages extends React.Component {
     let date = new Date();
 
     if (bool) {
+      /*
       window.localStorage.setItem('adshrink_alerts', JSON.stringify({
-        last_update: date.getTime(),
-        data: data
-      }));
+          last_update: date.getTime(),
+          data: data
+      }) );
+      */
       return true;
     }
 
-    var storage_alerts = window.localStorage.getItem('adshrink_alerts');
+    var storage_alerts = {}; //window.localStorage.getItem('adshrink_alerts');
 
     if (isEmpty(storage_alerts)) {
       this.fetchAlerts();
@@ -9391,6 +9584,12 @@ class ComponentComplete extends React.Component {
                 #centered_card_shrink_data { width: 330px !important; z-index: 10 !important; } \
                 .top-m { margin-top: 5px !important; } \
             "), /*#__PURE__*/React.createElement("div", {
+      id: "after_the_b_g"
+    }), /*#__PURE__*/React.createElement(ErrorBoundary, null, true === true && (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled = _adshrink.enabled) === null || _adshrink$enabled === void 0 ? void 0 : _adshrink$enabled.adsenseFull) && /*#__PURE__*/React.createElement(AdsenseBanner, {
+      size: 'medium_rectangle_responsive'
+    }), /*#__PURE__*/React.createElement(TaboolaBanner, {
+      size: "Mid_Article_3X1"
+    })), /*#__PURE__*/React.createElement("div", {
       className: "ui segment basic custom-padding-seg"
     }, /*#__PURE__*/React.createElement("div", {
       className: "ui segments"
@@ -9427,10 +9626,6 @@ class ComponentComplete extends React.Component {
       className: "ten wide computer eight wide tablet sixteen wide mobile column"
     }, form_factor === 'Smartphone' && /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(TaboolaBanner, {
       size: 'Mid_Article_Reco_Reel_2'
-    })), /*#__PURE__*/React.createElement(ErrorBoundary, null, true === true && (_adshrink === null || _adshrink === void 0 ? void 0 : (_adshrink$enabled = _adshrink.enabled) === null || _adshrink$enabled === void 0 ? void 0 : _adshrink$enabled.adsenseFull) && /*#__PURE__*/React.createElement(AdsenseBanner, {
-      size: 'medium_rectangle_responsive'
-    }), /*#__PURE__*/React.createElement(TaboolaBanner, {
-      size: "Mid_Article_3X1"
     }))))), /*#__PURE__*/React.createElement("div", {
       className: "ui secondary segment"
     }, /*#__PURE__*/React.createElement("p", null, this.getSecure())))), /*#__PURE__*/React.createElement("div", {
@@ -9571,19 +9766,23 @@ class LastNews extends React.Component {
   }
 
   componentDidMount() {
-    var glide = new Glide('#slidenews', {
-      type: 'carousel',
-      perView: 2,
-      focusAt: 'center',
-      hoverpause: true,
-      autoplay: 4000,
-      breakpoints: {
-        800: {
-          perView: 1
+    try {
+      var glide = new Glide('#slidenews', {
+        type: 'carousel',
+        perView: 2,
+        focusAt: 'center',
+        hoverpause: true,
+        autoplay: 4000,
+        breakpoints: {
+          800: {
+            perView: 1
+          }
         }
-      }
-    });
-    glide.mount();
+      });
+      glide.mount();
+    } catch (e) {
+      return false;
+    }
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -10432,12 +10631,16 @@ class ComponentGetDestination extends React.Component {
         url
       } = this.props || false;
       let that = this;
-      window.cd = 0;
+      window.cd = 0; //
+
+      var modal = document.getElementById("t_modal");
+      modal.style.display = "block";
       this.interval_countdown = setInterval(function () {
         window.cd++;
         $('#final_redirect_text').text('Wait .. ' + (_adshrink.skiptime - window.cd) + ' sec and ');
 
-        if (window.cd === 5) {//$('#modal_surveyplanet').modal('show');
+        if (window.cd < 7) {
+          $('#t_modal_close_time').text(6 - window.cd + ' sec');
         }
 
         if (window.cd >= _adshrink.skiptime) {
@@ -11036,15 +11239,12 @@ class Prototype extends React.Component {
           publicdata: res
         });
       });
-      $.post('https://www.shrink-service.it/v3/api/prototype/telegram', {
-        c: c,
-        referrer: getNestedObj(() => window.document.referrer),
-        host: window.dhost
-      }).then(res => {
-        if (getNestedObj(() => res.success)) that.setState({
-          v3publicdata: res
-        });
-      });
+      /*
+      $.post('https://www.shrink-service.it/v3/api/prototype/telegram', {c: c, referrer: getNestedObj(() => window.document.referrer), host: window.dhost}).then((res) => {
+               if ( getNestedObj(() => res.success) )
+              that.setState({v3publicdata: res});
+       });
+      */
     });
 
     _defineProperty(this, "fetchUserData", (id, userid) => {
@@ -11174,6 +11374,7 @@ class Prototype extends React.Component {
       });
     });
 
+    this.tModal = React.createRef();
     this.state = {
       return: true,
       script: {
@@ -11317,10 +11518,8 @@ class Prototype extends React.Component {
     };
     var url = !isEmpty(document.referrer) ? new URL(document.referrer) : {
       origin: 'emptyReferrer'
-    };
-    url = url.origin === 'emptyReferrer' ? !isEmpty(localStorage.getItem('_referrer')) ? {
-      origin: localStorage.getItem('_referrer')
-    } : url : url;
+    }; //url = (url.origin === 'emptyReferrer' ? (!isEmpty(localStorage.getItem('_referrer')) ? {origin: localStorage.getItem('_referrer')} : url ) : url);
+
     const deltaMouse = getDeltaMouse();
     if (!window[___reactjsD.o].hasOwnProperty('skipMouse')) window[___reactjsD.o] = Object.assign({}, window[___reactjsD.o], {
       skipMouse: {
@@ -11391,7 +11590,8 @@ class Prototype extends React.Component {
           uri: window[___reactjsD.o].dest
         };
       });
-    }
+    } //try { document.getElementById('after_the_b_g').scrollIntoView(); } catch(e) { console.warn('scroll') }
+
   }
 
   onHandleSkip(e) {
@@ -11435,10 +11635,8 @@ class Prototype extends React.Component {
 
       var url = !isEmpty(document.referrer) ? new URL(document.referrer) : {
         origin: 'emptyReferrer'
-      };
-      url = url.origin === 'emptyReferrer' ? !isEmpty(localStorage.getItem('_referrer')) ? {
-        origin: localStorage.getItem('_referrer')
-      } : url : url;
+      }; //url = (url.origin === 'emptyReferrer' ? (!isEmpty(localStorage.getItem('_referrer')) ? {origin: localStorage.getItem('_referrer')} : url ) : url);
+
       const deltaMouse = getDeltaMouse();
       if (!window[___reactjsD.o].hasOwnProperty('skipMouse')) window[___reactjsD.o] = Object.assign({}, window[___reactjsD.o], {
         skipMouse: {
@@ -11603,10 +11801,10 @@ class Prototype extends React.Component {
 
           case 'recapv3':
             window[object[key]].ready(function () {
-              if (!isEmpty(that.state.recaptcha)) return true; //official
+              if (!isEmpty(that.state.recaptcha)) return true; //official 1/5/2022 (window[___reactjsD.o].uid) (metatag)
 
               window[object[key]].execute(___reactjsD.pk3_recaptcha, {
-                action: parseInt($('meta[name="author"]').attr('content'))
+                action: window[___reactjsD.o].uid
               }).then(function (token) {
                 axios.post(___reactjsD.verification_recaptcha, objToFormdata({
                   response: token,
@@ -11700,17 +11898,17 @@ class Prototype extends React.Component {
 
     if (___firstpage.indexOf(userid) >= 0) {
       oncontinuefirstpage = true;
-    }
-
-    if (___adsenseusers.indexOf(userid) >= 0) {
-      _adshrink.enabled.adsense = true;
-    } //console.log('__SYSTEM__END__', userid, ___freeadsusers, ___freeadsusers.indexOf(userid), _adshrink);
+    } // if ( ___adsenseusers.indexOf(userid) >= 0 ) {
+    //_adshrink.enabled.adsense = true;
+    //}
+    //console.log('__SYSTEM__END__', userid, ___freeadsusers, ___freeadsusers.indexOf(userid), _adshrink);
 
 
     if (___banned_permanently.indexOf('adshrink.it' + window.location.pathname) >= 0) {
       _adshrink.enabled.adsense = false;
     }
 
+    window[___reactjsD.o].uid = userid;
     window[___reactjsD.o].host = getNestedObj(() => data.host);
     window[___reactjsD.o].reqpath = getNestedObj(() => data.path);
     window[___reactjsD.o].phpsid = getNestedObj(() => data.phpsessionid);
@@ -11817,11 +12015,13 @@ class Prototype extends React.Component {
       console.log('1) is vpn.. ', isVpn);
 
       if (isVpn) {
+        var _window$___reactjsD$o15;
+
         //_adshrink.enabled.adsense = false;
         //_adshrink.enabled.taboola = false;
         //_adshrink.userStatus.vpnScore = isVpn;
         //$('#goog_loader_script, #tb_loader_script').remove();
-        ga('send', 'event', 'User', 'is_vpn', $('meta[name="author"]').attr('content'), 100);
+        ga('send', 'event', 'User', 'is_vpn', (_window$___reactjsD$o15 = window[___reactjsD.o]) === null || _window$___reactjsD$o15 === void 0 ? void 0 : _window$___reactjsD$o15.uid, 100);
       } else {
         ga('send', 'event', 'User', 'not_vpn', 'Not Vpn User', 0);
       }
@@ -12071,7 +12271,11 @@ class Prototype extends React.Component {
         id: get_shrink_id,
         userid: get_user_id
       }
-    }), /*#__PURE__*/React.createElement(ModalTCF, null)), !isEmpty(data) && /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(ComponentExtraScripts, {
+    }), /*#__PURE__*/React.createElement(ModalTCF, null), getNestedObj(() => _adshrink.enabled.taboolaModal, false) && /*#__PURE__*/React.createElement(TaboolaBannerModal, {
+      dev: form_factor,
+      active: false,
+      ref: this.tModal
+    })), !isEmpty(data) && /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(ComponentExtraScripts, {
       importNavigatorScript: this.navigatorComponentScripts
     })), !isEmpty(data) && type !== 'Light' && _adshrink.enabled.iframe && true === false && recaptcha && /*#__PURE__*/React.createElement(ComponentRotationAdv, null), /*#__PURE__*/React.createElement("div", {
       className: "ui grid stackable " + (isEmpty(data) ? 'blurred' : ''),
@@ -12206,7 +12410,7 @@ class Prototype extends React.Component {
       style: {
         marginBottom: "30px"
       }
-    }, /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(WpCards, {
+    }, /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(BlogCards, {
       dev: form_factor
     }))), getNestedObj(() => this.state.html.firstpage.content) && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
       className: "sixteen wide column"
@@ -12266,10 +12470,10 @@ class Prototype extends React.Component {
       className: "eight wide column"
     }, /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(SemanticCard, {
       user: getNestedObj(() => this.state.user.username, false)
-    }))))), /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(StickyBottomBar, {
+    })))), /*#__PURE__*/React.createElement(ErrorBoundary, null, /*#__PURE__*/React.createElement(StickyBottomBar, {
       dev: form_factor,
       basic: basic
-    }))), !_script_loaded && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+    })))), !_script_loaded && /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
       className: "ui grid container stackable middle aligned center aligned"
     }, /*#__PURE__*/React.createElement("div", {
       className: "row middle aligned center aligned",
