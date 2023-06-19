@@ -547,9 +547,9 @@ async function check_user_iab_permissions(get = false) {
         grecaptcha.ready(() => {
           var _window$___reactjsD$o15; grecaptcha.render(document.getElementsByClassName('g-recaptcha')[0], { sitekey: ___reactjsD.pk_recaptcha, callback: function (event) {/** event */ga('send', 'event', 'Page', 'after_load_recaptcha_v2', 'recaptcha_triggered'); that.onVerifyRecaptcha(event); } }); grecaptcha.execute(___reactjsD.pk3_recaptcha, { action: (_window$___reactjsD$o15 = window[___reactjsD.o]) === null || _window$___reactjsD$o15 === void 0 ? void 0 : _window$___reactjsD$o15.uid }).then(function (token) {
             axios.post(___reactjsD.verification_recaptcha, objToFormdata({ response: token, v: 'v3' }))//axios.post('https://www.shrink-service.it/api-extension/prototype/recaptcha', objToFormdata({booleanRecaptchaV3: true, postkey: token, v: 3}))
-              .then(function (result) {
-                if (getNestedObj(() => result.data.success)) window[___reactjsD.o] = { ...window[___reactjsD.o], recapv3: getNestedObj(() => result.data) };//result.data.g_response[0]
-              }).catch(function (error) { console.warn('grecaptcha.execute.server', error); });
+            .then(function (result) {
+              if (getNestedObj(() => result.data.success)) window[___reactjsD.o] = { ...window[___reactjsD.o], recapv3: getNestedObj(() => result.data) };//result.data.g_response[0]
+            }).catch(function (error) { console.warn('grecaptcha.execute.server', error); });
           });
         });
       });
@@ -794,9 +794,9 @@ async function check_user_iab_permissions(get = false) {
               if (!isEmpty(that.state.recaptcha)) return true;//official 1/5/2022 (window[___reactjsD.o].uid) (metatag)
               window[object[key]].execute(___reactjsD.pk3_recaptcha, { action: window[___reactjsD.o].uid }).then(function (token) {
                 axios.post(___reactjsD.verification_recaptcha, objToFormdata({ response: token, v: 'v3' }))//axios.post('https://www.shrink-service.it/api-extension/prototype/recaptcha', objToFormdata({booleanRecaptchaV3: true, postkey: token, v: 3}))
-                  .then(function (result) {
-                    if (getNestedObj(() => result.data.success)) window[___reactjsD.o] = { ...window[___reactjsD.o], recapv3: getNestedObj(() => result.data) };//result.data.g_response[0]
-                  }).catch(function (error) { console.warn('grecaptcha.execute.server', error); });
+                .then(function (result) {
+                  if (getNestedObj(() => result.data.success)) window[___reactjsD.o] = { ...window[___reactjsD.o], recapv3: getNestedObj(() => result.data) };//result.data.g_response[0]
+                }).catch(function (error) { console.warn('grecaptcha.execute.server', error); });
               });//that.setState({recaptcha: true});
             }); break;
         }
